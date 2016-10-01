@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% from "macros/blog.html" import render_blog_post %}
+{% block extrahead %}
+<meta property="og:title" content="{{ this.title }}" />
+<meta property="og:url" content="{{ this.url }}" />
+{% endblock %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+<div class="blog-post">
+{% if from_index %}
+  <h2><a href="{{ this|url }}">{{ this.title }}</a></h2>
+{% else %}
+  <h2>{{ this.title }}</h2>
+{% endif %}
+<small>{{ this.pub_date|datetimeformat('MMMM d, y') }}</small>
+{% if this.toc %}
+<h4>Table Of Contents</h4>
+<ul class="toc">
+{% for item in this.body.toc recursive %}
+<li><a href="#{{ item.anchor }}">{{ item.title }}</a>{%
+ if item.children %}<ul>{{ loop(item.children) }}</ul>{% endif %}
+{% endfor %}
+</ul>
+{% endif %}
+{{ this.body }}
+</div>
+{% endblock %}

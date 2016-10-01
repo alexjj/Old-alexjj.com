@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% from "macros/blog.html" import render_blog_list %}
+{% from "macros/pagination.html" import render_pagination %}
+{% block title %}Writing{% endblock %}
+{% block body %}
+<ul>
+  {% for child in this.pagination.items %}
+    {{ render_blog_list(child, from_index=true) }}
+  {% endfor %}
+</ul>
+  <p>
+    {% if this.pagination.pages > 1 %}
+      {{ render_pagination(this.pagination) }}
+    {% endif %}</p>
+{% endblock %}
