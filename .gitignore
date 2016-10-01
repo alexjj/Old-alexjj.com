@@ -36,3 +36,10 @@
 ehthumbs.db
 Thumbs.db
 .idea
+
+
+# Netlify build #
+#################
+
+/build
+
