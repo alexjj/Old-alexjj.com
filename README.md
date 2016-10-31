@@ -21,4 +21,4 @@ $ lektor server
 ```
 Go to 127.0.0.1:5000 in your browser
 
-Changes to this repo are automatically deployed by travis.
+Changes to this repo are automatically deployed by [netlify](netlify.com).
