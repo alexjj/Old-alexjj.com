@@ -336,12 +336,10 @@ Once it's made, edit WSGI under Code and replace everything with this. Adjust th
 
 ```python
 from fava.application import app as application
-from fava.application import load_file, load_settings
+from fava.application import load_file
 
 application.config['BEANCOUNT_FILE'] = '/home/USER/money.beancount'
-application.config['USER_SETTINGS'] = None
 
-load_settings()
 load_file()
 ```
 
