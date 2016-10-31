@@ -44,6 +44,24 @@ Virtulisation is probably most of the others. KVM, XEN, OpenVZ Virtualbox, bhyve
 
 Unfortunately I think I'm going to go with Docker on Linux. Why abandon the stone fortress of FreeBSD? It's simply due to the ease of using other people's containers and getting the benefit of, no doubt, hours of their time in perfecting the setup. I have lots of other things to do, and whilst I enjoy system administration I enjoy other things more. Although now I need to find a time slot to install Linux when no-one is watching anything...!
 
+*Update - 2016-10-31:* Over the weekend I installed Arch Linux, Docker and a bunch of services. It was very easier to setup, write a docker-compose file and quickly have several services running in no time. However, (too) late Sunday night I reinstall FreeBSD.
+
+Why?
+
+* I missed ZFS being built-in
+  * FreeBSD makes ZFS on root easy, it's possible in Linux but I didn't do it as I was uncomfortable to commit to it. I didn't want issues when I next did a kernel update that potentially rendered my system unbootable. Maybe if I'd gone with Debian I'd be okay, but then I'd be stuck with old packages and other Debian quirks.
+* Turns out I can't just accept other people's docker containers.
+  * It's not I don't trust other people, I just want to know what is installed on my machine
+  * One I installed didn't work. I then had no idea how to fix it other than find another container on docker hub to install, which also led to me to:
+  * I kept thinking that I'd make my own containers to replace the ones I installed. Things didn't work, or I wanted to set up something in a particular way for my system, and I just wanted to know what was installed. This sounded a lot like setting up my own jails, and goes against the very reason I wanted to use docker in the first place.
+  * I was missing the ability to use the container (easily) as just another system to play about with. I realised I want a jail mini-system just to install things as normal and do stuff but knowing that when I'm done or if I don't like it I can just wipe it away. You can do that with docker but it seemed convulted.
+* Linux felt...messy
+  * I really do like the separation of base system and installed packages.
+  * I like updating the OS with it's tools and know it'll still work when I reboot!
+  * I like having a manual to refer to!
+  
+It's entirely personal preference, but FreeBSD is mine.
+
 ## How tos
 
 Just google it. FreeBSD  - see the handbook. Docker - see the docs on the website! There are too many people writing how tos which get old and then are wrong. I do like FreeBSD, and other BSDs, style of using man pages. I've grown up with Linux and always went to Google to find the answer and generally found it on someone's blog or a forum. Latterly the Arch Wiki has been my source of information. Since using FreeBSD I have found myself typing ```man x``` instead and often findng the answer there. Linux has man pages too, but I'm not sure why I never used them before. Maybe it's more that I'm older and more patient to read through documentation.
