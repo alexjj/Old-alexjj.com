@@ -64,7 +64,7 @@ It's entirely personal preference, but FreeBSD is mine.
 
 ## How tos
 
-Just google it. FreeBSD  - see the handbook. Docker - see the docs on the website! There are too many people writing how tos which get old and then are wrong. I do like FreeBSD, and other BSDs, style of using man pages. I've grown up with Linux and always went to Google to find the answer and generally found it on someone's blog or a forum. Latterly the Arch Wiki has been my source of information. Since using FreeBSD I have found myself typing ```man x``` instead and often findng the answer there. Linux has man pages too, but I'm not sure why I never used them before. Maybe it's more that I'm older and more patient to read through documentation.
+Just google it. FreeBSD  - see the handbook. Docker - see the docs on the website! There are too many people writing how tos which get old and then are wrong. I do like FreeBSD, and other BSDs, style of using man pages. I've grown up with Linux and always went to Google to find the answer and generally found it on someone's blog or a forum. Latterly the Arch Wiki has been my source of information. Since using FreeBSD I have found myself typing ```man x``` instead and often finding the answer there. Linux has man pages too, but I'm not sure why I never used them before. Maybe it's more that I'm older and more patient to read through documentation.
 
 There's still a place for blogs and wiki guides for when you're setting up whole systems of several pieces of software together. Generally the man page only tells you how to setup that particular thing, not how to use it with others.
 ---
