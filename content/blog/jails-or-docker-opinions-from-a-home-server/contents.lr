@@ -44,7 +44,7 @@ Virtulisation is probably most of the others. KVM, XEN, OpenVZ Virtualbox, bhyve
 
 Unfortunately I think I'm going to go with Docker on Linux. Why abandon the stone fortress of FreeBSD? It's simply due to the ease of using other people's containers and getting the benefit of, no doubt, hours of their time in perfecting the setup. I have lots of other things to do, and whilst I enjoy system administration I enjoy other things more. Although now I need to find a time slot to install Linux when no-one is watching anything...!
 
-*Update - 2016-10-31:* Over the weekend I installed Arch Linux, Docker and a bunch of services. It was very easier to setup, write a docker-compose file and quickly have several services running in no time. However, (too) late Sunday night I reinstall FreeBSD.
+*Update - 2016-10-31:* Over the weekend I installed Arch Linux, Docker and a bunch of services. It was very easy to setup, write a docker-compose file and quickly have several services running in no time. However, (too) late Sunday night I reinstalled FreeBSD.
 
 Why?
 
