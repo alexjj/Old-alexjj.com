@@ -344,7 +344,7 @@ load_file()
 ```
 
 Save it and go back to the webapp page. Add a user and password at the bottom, I'd recommend **NOT** your pythonanywhere user/password and something long and unique, preferably generated and saved in a password manager like [KeePassX](https://www.keepassx.org/).
-![password](/public/password.PNG "Add a password")
+!<img src="password.PNG" "Add a password">
 Now we need to install fava, to do this we're going to use a script that'll also be used for updating fava automatically.
 
 #### Fava Installation
@@ -401,7 +401,7 @@ chmod +x update.sh
 ./update.sh
 ```
 
-![console](/public/console.PNG "Installing fava from pip")
+<img src="console.PNG" alt="Installing fava from pip">
 
 Your site should now be working, but we don't have a beancount file there. To test it out you could just manually upload your file from the Files tab, along with any include files.
 
@@ -413,7 +413,7 @@ Go to https://USER.pythonanywhere.com, enter your username and password and ther
 
 To get fava to update automatically we simple go to the Schedule tab in the pythonanywhere dashboard and add a time and link to the update script, /home/USER/update.sh. If you find you run out of CPU usage, disable this and just do it manually every so often. I'd suggest setting the time to 23:55, so that way it runs and then your CPU limit gets reset at midnight.
 
-<img src=schedule.PNG>
+<img src="schedule.PNG">
 
 
 Now to automatically get your beancount file. I'm going to assume you don't want to pay for pythonanywhere - as great as it is! I bring this up as it limits what methods you can push files to your account. SSH/rsync in or **out** of your account only work for paid accounts. If you do pay then you can setup a cron task on your home computer to push the file to your pythonanywhere account.
