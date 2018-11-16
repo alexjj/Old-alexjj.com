@@ -3,6 +3,9 @@
 {% from "macros/pagination.html" import render_pagination %}
 {% block title %}Writing{% endblock %}
 {% block body %}
+
+<p>I've found a wiki to better suit my notes needs, so probably not going to update this...at least not for a while.</p>
+
 <ul>
   {% for child in this.pagination.items %}
     {{ render_blog_list(child, from_index=true) }}
