@@ -1,4 +1,4 @@
-title: Setting up and using my ergodox
+http://localhost:1313/title: Setting up and using my ergodox
 ---
 body:
 
@@ -79,7 +79,7 @@ Here are what my two main layers look like.
                                 `--------------------'       `--------------------'
 ```
 
-The full details are [here](https://github.com/alexjj/qmk_firmware/tree/master/keyboard/ergodox_ez/keymaps/alexjj). I've also submitted a pull request to the main repo so hopefully it'll be added along with many others that have been contributed. It's great to look at what other's have done to get some ideas on what you might want to do. Like anything that's completely customisable, sometimes it's good to have other examples to look at to get some ideas.
+The full details are [here](https://github.com/qmk/qmk_firmware/commit/04e4428e8c971f803f01eb58489b1c1d1a410b4d). I've also submitted a pull request to the main repo so hopefully it'll be added along with many others that have been contributed. It's great to look at what other's have done to get some ideas on what you might want to do. Like anything that's completely customisable, sometimes it's good to have other examples to look at to get some ideas.
 
 ## Key cap customisation
 
