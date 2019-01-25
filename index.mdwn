@@ -6,8 +6,6 @@
 * [[Web Journal|posts]] »<small>[[Archive|all]]</small>
 * [[Photos|https://alex.pics]]
 * My [[Projects|projects]]
-  * [[DF Worlds|https://dfworlds.alexjj.com]]
-  * [[DF Stories|https://df.alexjj.com]]
 * My [[setup]]
 
 <hr>
