@@ -9,7 +9,7 @@
 
 Most recent five posts:
 
-[[!inline pages="page(./posts/*) and !*/Discussion" archive=yes feedshow=5 timeformat=%F]]
+[[!inline pages="page(./posts/*) and !*/Discussion" archive=yes feedshow=5 timeformat=%F atom=no]]
 
 
 
