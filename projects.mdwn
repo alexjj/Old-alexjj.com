@@ -1,0 +1,8 @@
+# Projects
+
+Some projects and activities I've done over the years:
+
+* [[DF World|https://dfworlds.alexjj.com]] - Django powered world inventory for the infamous Dwarf Fortress.
+* [[DF Stories|https://df.alexjj.com]] - Collection of writings inspired by a game of Dwarf Fortress
+* [[Lightweight CSS|https://alexjj.github.io/light-and-shite/]] - A simple and rude CSS, used on this site with some modifications.
+* [[Lord Percy|https://github.com/alexjj/lord-percy]] - A fork of simple Hugo theme with my style applied. Mostly stopped when I decided not to use Hugo.
