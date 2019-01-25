@@ -1,6 +1,6 @@
 [[!img me.JPG align="right" size="" alt="me"]]
 
-I'm an engineer who enjoys using data to solve problems. I like learning new things.
+I'm an engineer who enjoys using data to solve problems. I like learning new things. Where I can I like to use open source software, as Freedom🦄 is important. See what I use in my [[setup]].
 
 
 ## Find me
