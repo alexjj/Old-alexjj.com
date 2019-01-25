@@ -11,7 +11,7 @@ I'm an engineer who enjoys using data to solve problems. I like learning new thi
 
 ## Contact me
 
-Email: <alexjj@gmail.com><br>
+<alexjj@gmail.com><br>
 [[My GPG key|B2452245.txt]]
 
 
