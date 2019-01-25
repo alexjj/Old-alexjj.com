@@ -2,7 +2,7 @@
 
 * [[About|about]] me more
 * [[Projects|projects]] I've done
-* [[Web Journal|posts]] »<small>[[Archive|posts/all]]</small>
+* [[Web Journal|posts]] »<small>[[Archive|all]]</small>
 
 
 [[!img logo.png size="100" align="center" alt=""]]
