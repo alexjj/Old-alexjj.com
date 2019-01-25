@@ -1,0 +1,151 @@
+/*
+ * Light and Shite
+ * The MIT License (MIT)
+ * Copyright (c) 2018 Alex Johnstone
+ */
+
+/* Formatting */
+
+body{
+    font: 1.2em/1.62em sans-serif;
+    margin: 1em auto;
+    max-width: 48em;
+    padding: 0.62em;
+    line-height: 1.5;
+}
+
+code {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 85%;
+    }
+
+h1,h2,h3 { line-height:1.2em; }
+
+
+#content { 
+	text-align: justify;
+	overflow-x: auto;
+}
+
+/* Hyperlink colors */
+
+a { text-decoration: none; }
+
+a:link    { color: #009966; }
+a:visited { color: #009966; }
+a:hover   { color: #000000; }
+a:active  { color: #009966; }
+
+
+/* Code Blocks */
+
+code,
+pre {
+  background: #eee;
+  max-width: 100%;
+}
+
+code {
+  padding: 2px 2px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+  border-left: 2px solid #009966;
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+}
+
+/* Footer */
+/* Use div id="footer" */
+
+#footer {
+  font-size: 0.75em;
+  text-align: center;
+  margin-top: 4em;
+}
+
+/* Make it responsive */
+
+@media print{ body{ max-width:none } }
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.header {
+	font-weight: normal;
+	font-size: 200%;
+}
+
+/* Table */
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+    
+table th, td {
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+ 
+table tr:nth-child(even) { background: #eee; }
+		    
+table th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #009966;
+    color: white
+}
+
+/* ikiwiki specifics */
+
+#pageinfo {
+	border-top: none;
+}
+
+.pageheader {
+	border-bottom: 2px solid #009966
+}
+
+.inlinepage {
+    border: none;
+    border-top: 2px solid #009966;
+}
+
+img.img { margin: 1em; }
+
+
+.comment {
+	border: none;
+	border-bottom: 1px solid #009966;
+	margin-bottom: 1em;
+	margin-right: 1em;
+	margin-left: 1em;
+}
+
+.comment-header {
+	font-style: italic;
+	font-size: small;
+	text-align: right;
+	padding-left: 1em;
+}
+.comment-header:before { content: "💬" }
+
+#comments #feedlink { display: none; }
+
+hr {
+   border: none;
+   border-top: 2px solid #009966;
+   clear: both;
+}
+
+
