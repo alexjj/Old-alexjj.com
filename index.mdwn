@@ -1,11 +1,15 @@
-[[!if test="enabled(sidebar)" then="""
-[[!sidebar]]
-""" else="""
-[[!inline pages=sidebar raw=yes]]
-"""]]
+### Chemical engineer. Computer science hobbyist. Dad.
 
-[[!inline pages="page(./posts/*) and !*/Discussion" show="10"
-actions=yes rootpage="posts"]]
+* [[About|about]] me more
+* [[Projects|projects]] I've done
+* [[Web Journal|posts]] »<small>[[Archive|posts/all]]</small>
 
 
-This blog is powered by [ikiwiki](http://ikiwiki.info).
+[[!img logo.png size="100" align="center" alt=""]]
+
+Most recent five posts:
+
+[[!inline pages="page(./posts/*) and !*/Discussion" archive=yes feedshow=10 quick=yes trail=yes]]
+
+
+
