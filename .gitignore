@@ -43,3 +43,9 @@ Thumbs.db
 
 /build
 
+# Pelican #
+#################
+*.pyc
+*.swp
+*.pid
+output/

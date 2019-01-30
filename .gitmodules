@@ -1,0 +1,3 @@
+[submodule "themes/great-bustard"]
+	path = themes/great-bustard
+	url = https://github.com/alexjj/great-bustard.git

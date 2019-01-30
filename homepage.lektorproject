@@ -1,8 +1,0 @@
-[project]
-name = alexjj.com
-url = https://alexjj.com
-
-[packages]
-lektor-markdown-highlighter = 0.1
-lektor-atom = 0.2
-lektor-markdown-header-anchors = 0.1
