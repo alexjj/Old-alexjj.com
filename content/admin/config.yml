@@ -1,0 +1,22 @@
+backend:
+  name: git-gateway
+  repo: alexjj/alexjj.com
+  branch: master
+
+publish_mode: editorial_workflow
+
+media_folder: "content/images"
+public_folder: "/images"
+
+collections: 
+  - name: "blog"
+    label: "New post"
+    folder: "content/blog"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1", class: "entry-title"}
+      - {label: "Summary", name: "summary", widget: "text", hint: "Brief summary for post list"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Category", name: "category", widget: "string", default: "Uncategorised", required: false, hint: "Just one"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}

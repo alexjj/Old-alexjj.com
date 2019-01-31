@@ -16,7 +16,7 @@ ARTICLE_SAVE_AS = 'blog/{date:%Y}/{slug}/index.html'
 ARTICLE_URL = 'blog/{date:%Y}/{slug}/'
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
-STATIC_PATHS = ['images', 'extra']
+STATIC_PATHS = ['images', 'extra', 'admin']
 
 TAG_SAVE_AS = 'blog/tag/{slug}/index.html'
 TAG_URL = 'blog/tag/{slug}/'
@@ -36,6 +36,8 @@ EXTRA_PATH_METADATA = {
     'extra/B2452245.txt': {'path': 'B2452245.txt'},
 }
 
+TEMPLATE_PAGES = {'admin/index.html': 'admin/index.html'}
+
 TIMEZONE = 'America/Los_Angeles'
 DEFAULT_LANG = 'en'
 SUMMARY_MAX_LENGTH = 50
@@ -51,16 +53,10 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Photos', 'https://alex.pics'),
-        ('DF Worlds', 'https://dfworlds.alexjj.com'),
-        ('DF Stories', 'https://df.alexjj.com'),)
-
 # Social widget
 SOCIAL = (('Github', 'https://github.com/alexjj'),
           ('LinkedIn', 'https://www.linkedin.com/in/ajjohnstone/'),)
 
 DEFAULT_PAGINATION = False
 
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+
