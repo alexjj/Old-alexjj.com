@@ -10,7 +10,7 @@ public_folder: "/images"
 
 collections: 
   - name: "blog"
-    label: "New post"
+    label: "Post"
     folder: "content/blog"
     create: true
     fields:
