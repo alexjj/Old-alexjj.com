@@ -10,7 +10,7 @@ public_folder: "/images"
 
 collections: 
   - name: "blog"
-    label: "New post"
+    label: "Post"
     folder: "content/blog"
     create: true
     fields:
@@ -19,4 +19,4 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Category", name: "category", widget: "string", default: "Uncategorised", required: false, hint: "Just one"}
-      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Tags", name: "tags", widget: "text", required: false}
