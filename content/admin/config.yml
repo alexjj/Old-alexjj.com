@@ -4,7 +4,7 @@ backend:
   branch: master
 
 publish_mode: editorial_workflow
-
+extension: "md"
 media_folder: "content/images"
 public_folder: "/images"
 
