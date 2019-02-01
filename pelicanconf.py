@@ -59,4 +59,15 @@ SOCIAL = (('Github', 'https://github.com/alexjj'),
 
 DEFAULT_PAGINATION = False
 
+# Plugins
 
+PLUGIN_PATHS =['plugins']
+PLUGINS = ['pelican-toc']
+
+# Table of contents
+
+TOC = {
+    'TOC_HEADERS': '^h[1-3]',
+    'TOC_RUN': 'false',
+    'TOC_INCLUDE_TITLE': 'false',
+    }
