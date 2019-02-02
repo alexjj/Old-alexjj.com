@@ -3,6 +3,7 @@ modified: 2019-01-28
 
 ## Desktop
 
+![Desk](/images/desktop.jpg)
 Getting on a bit now, i5 2500K Sandy Bridge, 16GB RAM, SSD, Radeon 580. Newish 32" HP Omen 1440p 75Hz monitor. Keyboards...That needs a new page!
 
 ## Laptop
@@ -48,3 +49,16 @@ First, and previous server was a HP Microservr NL40, with 4x2 TB drives running 
 Prior to running my i5 2500K build, my desktop was an Athlon 64 X2 4400+. This was one of the first dual core CPUs from somewhere around 2005/2006. I upgraded as it really was CPU bound and even with a new graphics card I couldn't play Skyrim (which I'd just received for my birthday in 2011). Prior to the 4400+, I don't remember what CPU I had...I remember buying a huge aluminium Thermaltake case which was probably expensive and I hated it immediately.
 
 We had a couple of computers from companies like *Tiny* and *Time* back in ~1996. They were probably horrible and overpriced but no-one in my family knew anything about them. I vaguely remember the flyers and special deals that the salesman would try and win you over with. One of which we agreed to, but then later it mysteriously disappeared and no-one in the company remembered such a deal...so we had to buy a more expensive one.
+
+### Work Setups
+
+A few images of work setup over time. Newest first.
+
+![ultrawide](/images/ultrawide.jpg)
+
+![Big screens](/images/thebigscreens.jpg)
+This is my favourite place to work with my team.
+
+![Secret Project](/images/work2.jpg)
+
+![2017](/images/work2017.jpg)
