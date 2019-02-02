@@ -23,6 +23,8 @@ Work gives me an iPhone SE. Have a LG G3 kicking about too.
 
 A couple of Raspberry Pis about. One acting as DNS via [pi-hole](https://pihole.net), the other varies between RetroPie emulator box, and general purpose linux box.
 
+I really like my Kindle Paperwhite. I started a list of the [books]({filename}books.md) I've read.
+
 ### Previous Hardware
 
 #### Laptops:
