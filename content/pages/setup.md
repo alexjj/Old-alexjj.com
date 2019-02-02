@@ -28,6 +28,8 @@ Use a Fuji X100F when we're travelling or I want a discrete/lightweight camera. 
 
 A couple of Raspberry Pis about. One acting as DNS via [pi-hole](https://pihole.net), the other varies between RetroPie emulator box, and general purpose linux box.
 
+Also have a i3 NUC that isn't doing anything. Used to use it as a PVR with over the air TV. Windows 7 had Windows Media Center that worked pretty well for PVR and pulled channel listings - that was axed in Windows 10.
+
 I really like my Kindle Paperwhite. I started a list of the [books]({filename}books.md) I've read.
 
 ### Previous Hardware
@@ -37,7 +39,12 @@ I really like my Kindle Paperwhite. I started a list of the [books]({filename}bo
 * Thinkpad X201s
 * Dell XPS circa ~2008
 
+Never really liked laptops before then, always preferred a desktop.
 
 #### Computers
 
 First, and previous server was a HP Microservr NL40, with 4x2 TB drives running Ubuntu server, then later Arch Linux. Tried out FreeNAS but prefered linux.
+
+Prior to running my i5 2500K build, my desktop was an Athlon 64 X2 4400+. This was one of the first dual core CPUs from somewhere around 2005/2006. I upgraded as it really was CPU bound and even with a new graphics card I couldn't play Skyrim (which I'd just received for my birthday in 2011). Prior to the 4400+, I don't remember what CPU I had...I remember buying a huge aluminium Thermaltake case which was probably expensive and I hated it immediately.
+
+We had a couple of computers from companies like *Tiny* and *Time* back in ~1996. They were probably horrible and overpriced but no-one in my family knew anything about them. I vaguely remember the flyers and special deals that the salesman would try and win you over with. One of which we agreed to, but then later it mysteriously disappeared and no-one in the company remembered such a deal...so we had to buy a more expensive one.
