@@ -19,6 +19,11 @@ Lenovo TS140 ThinkStation, i3, 32GB RAM and 4x 4TB WD Red. Running Arch Linux an
 
 Work gives me an iPhone SE. Have a LG G3 kicking about too.
 
+## Photography
+
+![X100F](/images/x100f.jpg)
+Use a Fuji X100F when we're travelling or I want a discrete/lightweight camera. Have a Nikon D7200 for all other times. 
+
 ## Others
 
 A couple of Raspberry Pis about. One acting as DNS via [pi-hole](https://pihole.net), the other varies between RetroPie emulator box, and general purpose linux box.
