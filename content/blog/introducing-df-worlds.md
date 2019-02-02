@@ -30,4 +30,4 @@ So how is it doing? Well it's okay. A couple of people added their worlds; most 
 
 The moderator of /r/dfworlds contacted me and asked about making a new site or collection of df sites. I said I was interested but nothing much has come of it, guess we're all too busy building exquisite shoes in game to spend any time on it.
 
-[logo]: http://i.imgur.com/LcoQlOk.png "DF Worlds"
+[logo]: /images/dfworldslogo.png "DF Worlds"
