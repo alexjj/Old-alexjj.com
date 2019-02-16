@@ -1,4 +1,4 @@
-title: Planning my Iris keyboard
+title: Building my Iris keyboard
 date: 2019-02-14
 category: Hardware
 tags: keyboard
