@@ -53,6 +53,6 @@ To find everything you need to build one yourself:
 
 * [Store page](https://keeb.io/collections/split-keyboard-parts/products/iris-keyboard-split-ergonomic-keyboard)
 * [Build Instructions](https://docs.keeb.io/iris-build-guide/)
-* [Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/iris)
+* [Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/keebio/iris)
 * [Case files](https://github.com/keebio/iris-case)
 * [Laser cutting](https://shop.laserboost.com)
