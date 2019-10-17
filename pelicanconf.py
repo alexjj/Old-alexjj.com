@@ -55,7 +55,8 @@ AUTHOR_FEED_RSS = None
 
 # Social widget
 SOCIAL = (('Github', 'https://github.com/alexjj'),
-          ('LinkedIn', 'https://www.linkedin.com/in/ajjohnstone/'),)
+          ('LinkedIn', 'https://www.linkedin.com/in/ajjohnstone/'),
+         ('Steam', 'https://steamcommunity.com/id/captainlag/'),)
 
 DEFAULT_PAGINATION = False
 
