@@ -10,7 +10,7 @@ I enjoy using data to solve problems, and I like learning new things. Where I ca
 
 ### My other sites
 
-* [alex.pics](https://alexj.pics) - Family Photos
+* [alex.pics](https://alex.pics) - Family Photos
 * [DF World](https://dfworlds.alexjj.com) - Django powered world inventory for the [Dwarf Fortress](http://www.bay12games.com/dwarves/).
 * [DF Stories](https://df.alexjj.com) - Collection of writings inspired by a game of Dwarf Fortress
 
