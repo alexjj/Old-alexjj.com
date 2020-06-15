@@ -34,9 +34,9 @@ I want to sort out my web setup - again...seems like an annual event...or even l
     * The indieweb stuff means I could have this with other system but this makes it easy
 * Other hosted options:
     * write.as
-      * Can have multiple blogs under one account.
-      * A photos site
-      * Guess I'll be starting the 14 day trial - and this post will be the first on it!
+        * Can have multiple blogs under one account.
+        * A photos site
+        * Guess I'll be starting the 14 day trial - and this post will be the first on it!
 * Self-hosted CMS
     * Wordpress
     * Ghost
