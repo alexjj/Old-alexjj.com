@@ -38,7 +38,7 @@ EXTRA_PATH_METADATA = {
 
 TEMPLATE_PAGES = {'admin/index.html': 'admin/index.html'}
 
-TIMEZONE = 'America/Los_Angeles'
+TIMEZONE = 'Europe/London'
 DEFAULT_LANG = 'en'
 SUMMARY_MAX_LENGTH = 50
 DEFAULT_DATE_FORMAT = '%d %B %Y'
@@ -47,7 +47,8 @@ DEFAULT_DATE_FORMAT = '%d %B %Y'
 RECENT_ARTICLES_COUNT = 5
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
+FEED_DOMAIN = SITEURL
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
