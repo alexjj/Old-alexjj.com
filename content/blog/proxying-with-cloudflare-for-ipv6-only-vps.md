@@ -1,9 +1,10 @@
+---
 title: Proxying with Cloudflare for ipv6 only VPS
 date: 2016-09-25
 category: Software
 tags: vps, nginx, config
 summary: How to setup CloudFlare to act as an ipv6 to ipv4 proxy with SSL
-
+---
 This setup is used for ipv6 only VPS, like ones from [Lowendspirit](http://lowendspirit.com/). It allows ipv4 clients to connect and it provides SSL from client to server.
 
 ##Cloudflare Settings

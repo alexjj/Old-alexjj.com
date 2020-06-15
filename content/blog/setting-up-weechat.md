@@ -1,9 +1,10 @@
+---
 title: Setting up Weechat
 date: 2016-09-26
 category: Software
 tags: weechat, config
 summary: Notes for setting up a basic weechat client with irc and XMPP.
-
+---
 
 I like to run weechat in tmux on a VPS and then ssh into it and pick up where I left off. I also use bitlbee to connect to XMPP servers. Weechat has lots of options and these are some notes for setting up. Mostly taken from a variety of sources online when you search for weechat setup.
 

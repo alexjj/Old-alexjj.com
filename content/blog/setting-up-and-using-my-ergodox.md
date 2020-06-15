@@ -1,9 +1,10 @@
+---
 title: Setting up and using my ergodox
 date: 2016-03-27
 category: hardware
 tags: keyboard
 summary: Creating a layout for the Ergodox keyboard. 
-
+---
 
 ## Introduction
 

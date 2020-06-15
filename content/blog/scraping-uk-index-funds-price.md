@@ -1,9 +1,10 @@
+---
 title: Scraping UK index funds' prices
 date: 2016-02-10
 category: Projects
 tags: python, finance, web
 summary: Building a django powered dwarf fortress world repository
-
+---
 
 For four months or so I've been using [ledger](http://www.ledger-cli.org/) for tracking and managing my finances. It's great and I'll discuss that another time. One reason why I switched to ledger was to manage all my finances in one place, including tracking index funds. Ledger uses a pricesdb file to track the prices of any commodities, stocks, currencies, shoes, whatever!
 

@@ -1,8 +1,10 @@
+---
 title: Introducing DF Worlds
 date: 2013-10-21
 category: Projects
 tags: python, django, dwarf fortress
 summary: Building a django powered dwarf fortress world repository
+---
 
 ![df](/images/df.jpg)
 

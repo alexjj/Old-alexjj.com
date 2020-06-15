@@ -1,10 +1,11 @@
+---
 title: Building a Clueboard. Part 1.
 date: 2016-04-06
 category: Hardware
 tags: keyboard
 summary: Looking for the perfect keyboard. 
 toc_run: true
-
+---
 ## Introduction
 
 After not having much success with my ergodox, I decided I needed to find an alternative. I had, at least, learnt a few things on the way with the ergodox, namely:

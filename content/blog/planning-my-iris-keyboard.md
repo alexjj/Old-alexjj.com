@@ -1,10 +1,11 @@
+---
 title: Planning my Iris keyboard
 date: 2019-01-04
 category: Hardware
 tags: keyboard
 summary: The journey to endgame continues. 
 toc_run: false
-
+---
 ![Iris Example](/images/iris-example.jpg)
 
 It's been a while but suddenly I decided I needed to build a new keyboard. This time it'll be the perfect one that I'll love forever and never need to change...

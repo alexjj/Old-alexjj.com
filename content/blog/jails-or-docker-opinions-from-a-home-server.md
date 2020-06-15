@@ -1,10 +1,11 @@
+---
 title: Jails or Docker: Opinions from a home server
 date: 2016-10-25
 category: Software
 tags: linux, freebsd, opinion
 summary: My opinions of each as a home user
 toc_run: true
-
+---
 Firstly, this isn't a detailed technical evaluation or comparison of the two pieces of software. It is merely an 'average' users thoughts on both as applied in a home server environment.
 
 # Introduction

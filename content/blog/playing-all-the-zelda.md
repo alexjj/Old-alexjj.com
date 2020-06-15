@@ -1,9 +1,10 @@
+---
 title: Playing all the Zelda 🗡️
 date: 2018-12-28
 category: Games
 tags: zelda nintendo 
 summary: What systems and games you need to play Zelda 
-
+---
 ![All games](/images/allzelda.png)
 
 After playing Breath of the Wild on the Switch, I wondered what it would take to play through all the old Zelda titles. I've never played any of them before and so what better way to spend my limited free time than playing through a whole load of old games :) Turns out you can pretty much play every single game with just a 3DS and a Wii U. Taking advantage of the eShop titles as well as original content on those devices. I already own a 3DS so this looks promising.
