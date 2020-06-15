@@ -26,27 +26,27 @@ I want to sort out my web setup - again...seems like an annual event...or even l
 ## Options
 
 * Static site
-  * Pelican
-  * Hugo
-  * A million others on static gen
+    * Pelican
+    * Hugo
+    * A million others on static gen
 * Micro.blog hosted
-  * I like the apps, community and spirit of it. 
-  * The indieweb stuff means I could have this with other system but this makes it easy
+    * I like the apps, community and spirit of it. 
+    * The indieweb stuff means I could have this with other system but this makes it easy
 * Other hosted options:
-  * write.as
-    * Can have multiple blogs under one account.
-    * A photos site
-    * Guess I'll be starting the 14 day trial - and this post will be the first on it!
+    * write.as
+      * Can have multiple blogs under one account.
+      * A photos site
+      * Guess I'll be starting the 14 day trial - and this post will be the first on it!
 * Self-hosted CMS
-  * Wordpress
-  * Ghost
-  * ...[many others](https://github.com/awesome-selfhosted/awesome-selfhosted#content-management-systems-cms) or [blogging specific ones](https://github.com/awesome-selfhosted/awesome-selfhosted#blogging-platforms).
+    * Wordpress
+    * Ghost
+    * ...[many others](https://github.com/awesome-selfhosted/awesome-selfhosted#content-management-systems-cms) or [blogging specific ones](https://github.com/awesome-selfhosted/awesome-selfhosted#blogging-platforms).
 * Tiddlywiki
-  * It's a wiki but quite unique so gets its own top level bullet :)
+    * It's a wiki but quite unique so gets its own top level bullet :)
 * A wiki
-  * dokuwiki
-  * ikiwiki
-  * ...+++
+    * dokuwiki
+    * ikiwiki
+    * ...+++
 
 ## Review of options
 
@@ -108,7 +108,7 @@ All through this post I'd made up my mind it was Write.as. Perhaps because I've 
 * Minimise friction to add content **Very easy, open the website, and go. Save to anon if I'm not ready**
 * Some way of having conversations with people **Have to integrate with other platforms until its comment systems comes out but not bad**
 * Minimise tracking/js junk/distractions **The writer is certainly minimal, and think I can readily replicate my home site's theme**
-* Keep all my content either on my machine, server or (auto)exportable (and easily reusable). ** Has an export function, possibly manual only**
+* Keep all my content either on my machine, server or (auto)exportable (and easily reusable). **Has an export function, possibly manual only**
 
 ### ikiwiki
 
