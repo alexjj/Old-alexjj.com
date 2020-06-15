@@ -60,6 +60,8 @@ If we set cost aside for now and discuss the options:
 
 A good starting point seeing as this is where I am now. The sites are exactly as I want, but all my time goes into the configuration. Even once it's all setup I still find a lot of friction to get going. The CI of netlify means I can just add a post to github and it'll rebuild. I have long since forgotten how I setup my current site, and whilst I could add to it, I worry that I'll want to change something. Part of me feels like I just need a change to get going again and I can't be bothered to learn another static site. 
 
+*Update* Having posted this blog post to a few sites whilst trialing them, I have to note that using Netlify CMS that I have installed here was pretty easy and painless. Maybe it's not so bad after all. I like the style and don't think I need much more. I could enable the feed and add to micro.blog and see how that goes. Or maybe add commeto to this instead of utterances. Plus I do like everything being free. Editing a post in Github isn't bad either.
+
 ### Micro.blog
 
 Recently found this community and I really like the idea of it. It adds some social aspect to what has been missing from my site - although given the frequency of posts perhaps this isn't a good gauge. I like the apps on my phone for browsing and posting. Having used the trial for a little, and getting an extension, I'm not sure I want another time sink to endless browse other people's musings. So do I really want a social thing or just a publishing platform - with others commenting to me about my post. 
@@ -98,7 +100,7 @@ ikiwiki has been a wiki/blog/content site that I've enjoyed for many years, alth
 
 ## Conclusions
 
-All through this post I'd made up my mind it was Write.as. Perhaps because I've just found it and it's been nice typing away 1800+ words on this site. However, just doing that last paragraph on ikiwiki made me doubt that decision. I must have a soft spot for ikiwiki, not sure how or why, because I always pine after it whenever I see it after a long time. Although it doesn't integrate with anything, beyond putting out a RSS feed. So lets say it's between Write.as and ikiwiki. Ikiwiki could always be swapped out for some other service, but I think between all the options it's Write.as vs. xyz at this stage.
+All through this post I'd made up my mind it was Write.as. Perhaps because I've just found it and it's been nice typing away 1800+ words on this site (writing this post in Write.as) but posting in multiple places to see how it works. However, just doing that last paragraph on ikiwiki made me doubt that decision. I must have a soft spot for ikiwiki, not sure how or why, because I always pine after it whenever I see it after a long time. Although it doesn't integrate with anything, beyond putting out a RSS feed. So lets say it's between Write.as and ikiwiki. Ikiwiki could always be swapped out for some other service, but I think between all the options it's Write.as vs. xyz at this stage.
 
 ### Write.as
 
@@ -121,6 +123,13 @@ All through this post I'd made up my mind it was Write.as. Perhaps because I've 
 So my criteria whilst seemingly useful at the start, didn't really help :) 
 
 Depends on that setup time, but let's see how these 14 days of trial go and then maybe I'll know if that setup time is worth it.
+
+### Keep my current site
+
+* It works.
+* I do have Netlify CMS which is decent enough for making a new post wherever I am. Plus I'd configured it specifically for this blog and stuff just worked when I added this post.
+* It's free. Given my cycle of getting excited about posting to then doing nothing...that's probably a good thing.
+* Put the time investment in already for the theming etc.
 
 ## Notes
 
