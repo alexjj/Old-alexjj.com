@@ -17,4 +17,5 @@ I enjoy using data to solve problems, and I like learning new things. Where I ca
 ### Contact
 
 <alexjj@gmail.com><br>
-[My GPG Key](/B2452245.txt)
+[My GPG Key](/B2452245.txt)<br>
+<a rel="me" href="https://writing.exchange/@alexjj">Mastodon</a>
