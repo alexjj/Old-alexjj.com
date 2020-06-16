@@ -6,14 +6,14 @@ modified: 2020-04-16
 ![Desk](/images/COVID19 Setup.jpg)
 For the coronavirus outbreak, I've brought in another table and setup some more monitors. Actually quite like this arrangement. iPad and Switch clearly most important when working from home :)
 
-Slight upgrade over my i5 2500K, that's still here though, with a i7-3770, 16GB RAM, and a GTX 1060 6GB powering a 32" HP Omen 1440p 75Hz monitor, a 22" benq, and a 24" HP borrowed from work. Desktop is actually a prebuilt Dell Optiplex 9010 with an upgraded PSU. It's quiet and was great value for a 8 thread CPU.
+Slight upgrade over my i5 2500K, with a i7-3770, 16GB RAM, and a GTX 1060 6GB powering a 32" HP Omen 1440p 75Hz monitor, a 22" benq, and a 24" HP borrowed from work. Desktop is actually a prebuilt Dell Optiplex 9010 with an upgraded PSU. It's quiet and was great value for a 8 thread CPU.
 
-I've owned a lot of keyboards over the years and plan to share a history of them. Right now I'm using a cheap, random blue switch board from Amazon. It's US layout and it's really annoying...I want to buy a Filco MX Brown tenkeyless with cable and bluetooth so I can control everything. 
+I've owned a lot of keyboards over the years and plan to share a history of them. Right now I'm using a Goldtouch GTP-0055-UK. Work gave it to me as part of the "road warrior" kit, but have come to enjoy using it so much it's now my main keyboard. 
 
 ## Laptop
 
 
-Keeping the picture of my X230 here for prosperity. Actually upgraded to a T460s, still running Arch but now with GNOME. Not sure I like GNOME but it just works so there's that.
+Keeping the picture of my X230 here for prosperity. Actually upgraded to a T460s, still running Arch but now with GNOME. Not sure I like GNOME but it just works so there's that. Daughter has been using it full time for her school work whilst we're all at home. Linux only slightly annoys her mum :)
 
 ![x230](/images/x230.jpg)
 
