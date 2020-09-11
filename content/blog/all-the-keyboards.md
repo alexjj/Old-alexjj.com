@@ -7,4 +7,6 @@ toc_run: false
 ---
 This is going to be a long post. It'll probably take me a long time to put together and I'm likely to come back to it as I remember/find other boards.
 
-I've been wanting to do this for a while. Ever since I wrote Part 1 of my Clueboard (and then never wrote anymore)
+I've been wanting to do this for a while. Ever since I wrote Part 1 of my Clueboard (and then never wrote anymore). What's also interesting is that I now don't own a single mechanical keyboard. I sold them all. I now use a Goldtouch GTP-0055-UK.
+
+![](/images/goldtouch.jpg "oh the ergonomics!")
