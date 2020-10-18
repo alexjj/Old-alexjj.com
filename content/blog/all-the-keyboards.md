@@ -7,6 +7,10 @@ toc_run: false
 ---
 This is going to be a long post. It'll probably take me a long time to put together and I'm likely to come back to it as I remember/find other boards.
 
-I've been wanting to do this for a while. Ever since I wrote Part 1 of my Clueboard (and then never wrote anymore). What's also interesting is that I now don't own a single mechanical keyboard. I sold them all. I now use a Goldtouch GTP-0055-UK.
+I've been wanting to do this for a while. Ever since I wrote Part 1 of my Clueboard (and then never wrote anymore). What's also interesting is that I now don't own a single mechanical keyboard. I sold them all. I now use a Goldtouch GTP-0055-UK. I like the lightweight touch of the scissor switch keys, it's very similar to ThinkPad keyboards, and old MacBooks. 
 
 ![](/images/goldtouch.jpg "oh the ergonomics!")
+
+### Poker 2
+
+This was my very first mechanical keyboard. Got it for my birthday in 2013, and it ended up being my favourite of all time. It had Cherry brown switches, I bought a cheap set of DSA key caps and kept it mostly the same the whole time.
