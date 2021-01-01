@@ -7,7 +7,9 @@ toc_run: false
 ---
 I want to sort out my web setup - again...seems like an annual event...or even less frequently as that. At a high level: I have things I wanted to write about but never get round to it. This post is where I dive into the details of what I want, comparing options and ultimately hoping I find something that enables me to write what I want.
 
-##  Why do I want a web presence?
+*Spoiler: I wasted days looking at options then kept my current site.*
+
+## Why do I want a web presence?
 
 * I like sharing useful things I find/figure out for other's benefits.
 * Control my presence. If I'm absent then it says nothing
@@ -26,27 +28,34 @@ I want to sort out my web setup - again...seems like an annual event...or even l
 ## Options
 
 * Static site
-    * Pelican
-    * Hugo
-    * A million others on static gen
+
+  * Pelican
+  * Hugo
+  * A million others on static gen
 * Micro.blog hosted
-    * I like the apps, community and spirit of it. 
-    * The indieweb stuff means I could have this with other system but this makes it easy
+
+  * I like the apps, community and spirit of it. 
+  * The indieweb stuff means I could have this with other system but this makes it easy
 * Other hosted options:
-    * write.as
-        * Can have multiple blogs under one account.
-        * A photos site
-        * Guess I'll be starting the 14 day trial - and this post will be the first on it!
+
+  * write.as
+
+    * Can have multiple blogs under one account.
+    * A photos site
+    * Guess I'll be starting the 14 day trial - and this post will be the first on it!
 * Self-hosted CMS
-    * Wordpress
-    * Ghost
-    * ...[many others](https://github.com/awesome-selfhosted/awesome-selfhosted#content-management-systems-cms) or [blogging specific ones](https://github.com/awesome-selfhosted/awesome-selfhosted#blogging-platforms).
+
+  * Wordpress
+  * Ghost
+  * ...[many others](https://github.com/awesome-selfhosted/awesome-selfhosted#content-management-systems-cms) or [blogging specific ones](https://github.com/awesome-selfhosted/awesome-selfhosted#blogging-platforms).
 * Tiddlywiki
-    * It's a wiki but quite unique so gets its own top level bullet :)
+
+  * It's a wiki but quite unique so gets its own top level bullet :)
 * A wiki
-    * dokuwiki
-    * ikiwiki
-    * ...+++
+
+  * dokuwiki
+  * ikiwiki
+  * ...+++
 
 ## Review of options
 
@@ -94,7 +103,7 @@ Be good to keep systems separate such that I get into the right frame of mind wh
 
 ### A wiki
 
-I do like wikis. Much of my content has been recipes - Linux flavoured - and a wiki is a nice place for them. I like to bring pieces of information together and a wiki is great for that. I really like dokuwiki and ikiwiki. Both of which I've used a lot in the past. In fact my dokuwiki site is my longest running hosted service (although a recent update [where it told me not to auto update but I did anyway...] broke it). Dokuwiki I can use ACL to keep private and public sections and it has plugins that make blogging work. I've always like the style of dokuwiki, and everything is saved to plain text files - which makes it very easy to back up.
+I do like wikis. Much of my content has been recipes - Linux flavoured - and a wiki is a nice place for them. I like to bring pieces of information together and a wiki is great for that. I really like dokuwiki and ikiwiki. Both of which I've used a lot in the past. In fact my dokuwiki site is my longest running hosted service (although a recent update \[where it told me not to auto update but I did anyway...] broke it). Dokuwiki I can use ACL to keep private and public sections and it has plugins that make blogging work. I've always like the style of dokuwiki, and everything is saved to plain text files - which makes it very easy to back up.
 
 ikiwiki has been a wiki/blog/content site that I've enjoyed for many years, although could never commit to fully using it. It's still maintained but I fear for the perl longevity - probably unjustified as many people are still using ikiwiki, and perl. Everything is plain text files, and the nice thing is that it's statically generated, so that can help with hosting options. It has blogging, commenting and wiki functions straight out of the box. I remember one time spending ages customising it and rearranging things to make it into my whole site. Talking about it now makes me want to use it again. Technically speaking it does have everything I want, although falls into the self-hosting bucket and time discussion. I should have some notes somewhere about setting it up, and maybe even the CSS and template changes I did. Whilst I quite like its default anti-theme, it's a bit harsh for others. 
 
