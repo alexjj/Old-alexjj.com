@@ -1,6 +1,7 @@
 ---
-title: All the keyboards
-summary: A run through of all the keyboads I've owned over the past 10 years.
+title: All the keyboards (Part 1)
+summary: "A run through of all the keyboads I've owned over the past 10 years:
+  An introduction"
 date: 2020-09-11T19:49:03.183Z
 category: keyboards
 toc_run: false
