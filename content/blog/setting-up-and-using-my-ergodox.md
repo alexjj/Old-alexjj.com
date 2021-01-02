@@ -1,10 +1,9 @@
----
-title: Setting up and using my ergodox
-date: 2016-03-27
-category: hardware
-tags: keyboard
-summary: Creating a layout for the Ergodox keyboard. 
----
++++
+title = "Setting up and using my ergodox"
+date = "2016-03-27"
+tags = ["keyboard",]
+description = "Creating a layout for the Ergodox keyboard." 
++++
 
 ## Introduction
 
@@ -87,10 +86,10 @@ The full details are [here](https://github.com/qmk/qmk_firmware/tree/04e4428e8c9
 
 ## Key cap customisation
 
-Now this is the real <del>fun</del> expensive part. Getting the massive grab bag of keys was great for sampling lots of keycap sets that are (or could be) available. A lot of key cap sets are made in batches for group buys, either on [geekhack](http://geekhack.org) or [massdrop](https://www.massdrop.com/mechanical-keyboards/drops?mode=guest_open), to name a couple. These are only available for short periods of time and then afterwards there's limited to no option to buy them other than second hand. Usually, popular designs will make repeat appearances but again in limited timeframes. Having been quite content with my Poker 2 at work and my industrial IBM Model M from 1987 at home, I'd not really been following or planning on buying keycaps. Which is a shame as it turned out a whole load of great caps (especially SA profile) had dropped. From the grab bag I soon learnt that I loved SA and that I wanted the [Carbon set](http://www.massdrop.community/mechkeys/carbon/). This set may run again in 2016, but if it does I probably won't seem them until December or probably Q1 2017.
+Now this is the real ~~fun~~ expensive part. Getting the massive grab bag of keys was great for sampling lots of keycap sets that are (or could be) available. A lot of key cap sets are made in batches for group buys, either on [geekhack](http://geekhack.org) or [massdrop](https://www.massdrop.com/mechanical-keyboards/drops?mode=guest_open), to name a couple. These are only available for short periods of time and then afterwards there's limited to no option to buy them other than second hand. Usually, popular designs will make repeat appearances but again in limited timeframes. Having been quite content with my Poker 2 at work and my industrial IBM Model M from 1987 at home, I'd not really been following or planning on buying keycaps. Which is a shame as it turned out a whole load of great caps (especially SA profile) had dropped. From the grab bag I soon learnt that I loved SA and that I wanted the [Carbon set](http://www.massdrop.community/mechkeys/carbon/). This set may run again in 2016, but if it does I probably won't seem them until December or probably Q1 2017.  
 ![Isn't it lovely](/images/carbon.jpg)
 
-SA profile is a special cap design by Signature Plastics (one of the main manufacturers of keyboard keys) which are tall, fairly thick plastic with a curved profile to them. I think they look stunning and feel solid to type on.
+SA profile is a special cap design by Signature Plastics (one of the main manufacturers of keyboard keys) which are tall, fairly thick plastic with a curved profile to them. I think they look stunning and feel solid to type on.  
 ![Profiles](/images/key-family-center.jpg)
 
 For now the random selection will have to do, and I'm subscribed to massdrop for when the keys do come round. Although it's going to be very tempting to buy a lot more...

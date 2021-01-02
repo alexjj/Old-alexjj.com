@@ -1,11 +1,10 @@
----
-title: Building my Iris keyboard
-date: 2019-02-14
-category: Hardware
-tags: keyboard
-summary: Build log of my Iris keyboard
-toc_run: false
----
++++
+title = "Building my Iris keyboard"
+date = "2019-02-14"
+tags = ["keyboard",]
+description = "Build log of my Iris keyboard"
++++
+
 In my [previous post]({filename}planning-my-iris-keyboard.md) I decided I would build a new split keyboard, and explored the Iris. Here's my build log for it.
 
 ![Parts](/images/iris-parts.jpg)

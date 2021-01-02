@@ -1,13 +1,31 @@
-title: Books
++++
+title = "Books"
+menu = "main"
++++
+
 
 *If I have seen further than others, it is by standing upon the shoulders of giants.*
 
-List of books I've read:
+List of books I've read:  
+I stopped recording them in early 2019...have to go back to my kindle/shelves and try and figure it out!
+
+#### 2021
+
+
+
+#### 2020
+
+* *To Green Angel Tower: Storm* (1993), Tad Williams, Part 2, total 1083 pp
+* *To Green Angel Tower: Siege* (1993), Tad Williams, Part 1
+* *Stone of Farewell* (1990), Tad Williams, 589 pp
+* *The Dragonbone Chair* (1988), Tad Williams, 672 pp
+* *The 4 Disciplines of Execution: Achieving Your Wildly Important Goals* (2012),  Chris McChesney, Sean Covey, Jim Huling, 296 pp
+
 
 #### 2019
 
 * *The Plot Against America* (2004), Philip Roth, 391 pp
-* *The Bullet Journal Method* (2018), [Ryder Carroll](https://bulletjournal.com/), 320 pp 
+* *The Bullet Journal Method* (2018), [Ryder Carroll](https://bulletjournal.com/), 320 pp
 
 #### 2018
 
@@ -55,10 +73,10 @@ List of books I've read:
 * *Rama Revealed* (1993), Arthur C. Clarke, 512 pp
 * *The Shadow Rising* (1992), Robert Jordan, 981 pp
 * *The Fires of Heaven* (1993), Robert Jordan, 963 pp
-* *Ready Player One* (2011),	Ernest Cline, 386 pp
-* *Twenty Thousand leagues under the sea* (1870), Jules Verne,	214 pp
-* *No Country for Old Men* (2005),	Cormac McCarthy,	322 pp
-* *The Princess Bride* (1973),	William Goldman,	465 pp
+* *Ready Player One* (2011), Ernest Cline, 386 pp
+* *Twenty Thousand leagues under the sea* (1870), Jules Verne, 214 pp
+* *No Country for Old Men* (2005), Cormac McCarthy, 322 pp
+* *The Princess Bride* (1973), William Goldman, 465 pp
 * *The Man in the High Castle* (1962), Philip K. Dick, 239 pp
 * *The Picture of Dorian Gray* (1890), Oscar Wilde, 254 pp
 * *The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing* (2011), Marie Kondo, 226 pp
@@ -66,6 +84,7 @@ List of books I've read:
 #### 2015
 
 * *The Shepherd's Crown* (2015), Terry Pratchett, 304 pp
+  * This marked the end of reading all of the discworld series, started *The Colour of Magic* in April 2011.
 * *The Dragon Reborn* (1991), Robert Jordan, 675 pp
 * *The Great Hunt* (1990), Robert Jordan, 681 pp
 * *The Eye of the World* (1990), Robert Jordan, 782 pp

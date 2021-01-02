@@ -1,4 +1,0 @@
-pelican
-pyyaml
-markdown
-beautifulsoup4

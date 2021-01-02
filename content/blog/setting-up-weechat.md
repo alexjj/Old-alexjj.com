@@ -1,10 +1,9 @@
----
-title: Setting up Weechat
-date: 2016-09-26
-category: Software
-tags: weechat, config
-summary: Notes for setting up a basic weechat client with irc and XMPP.
----
++++
+title = "Setting up Weechat"
+date = "2016-09-26"
+tags = ["weechat", "config",]
+description = "Notes for setting up a basic weechat client with irc and XMPP."
++++
 
 I like to run weechat in tmux on a VPS and then ssh into it and pick up where I left off. I also use bitlbee to connect to XMPP servers. Weechat has lots of options and these are some notes for setting up. Mostly taken from a variety of sources online when you search for weechat setup.
 
@@ -64,7 +63,7 @@ Toggle nicklist with esc n
 
     /key bind meta-n /bar toggle nicklist
 
-####Adjust title, status, and input bars
+#### Adjust title, status, and input bars
 
 This creates new root bars to replace the per window ones. So there's not repetition when you break up the window for highlight mon.
 
@@ -109,7 +108,7 @@ Customise the nicklist bar
     /set weechat.bar.nicklist.size_max 14
     /set weechat.bar.nicklist.size 14
 
-###Scripts
+### Scripts
 
 Install iset.pl script manager:
 
@@ -132,7 +131,7 @@ To skip to the answer:
 
     /script install buffers.pl iset.pl go.py colorize_nicks.py bitlbee_completion.py autosort.py autojoin_on_invite.py screen_away.pl recoverop.pl highmon.pl
 
-####Configuring Scripts
+#### Configuring Scripts
 
 **Buffers.pl**
 
@@ -176,16 +175,16 @@ Turn on recover op for my channel:
     /set plugins
 
 
-###Save!
+### Save!
 
     /set weechat.look.save_layout_on_exit all
     /save
 
 
 
-##Bitlbee
+## Bitlbee
 
-####Setup connection to bitblee:
+#### Setup connection to bitblee:
 
     /server add im localhost/6667 -autoconnect
     /connect im
@@ -197,7 +196,7 @@ Back in weechat buffer:
     /set irc.server.im.command "/msg &bitlbee identify YOUR_PASS"
     /save
 
-####Add account
+#### Add account
 
     acc add jabber username@server.com PASSWORD
     acc 0 set
@@ -208,12 +207,12 @@ To see all the accounts and number:
 
     acc list
     save
-####Add and join group chat
+#### Add and join group chat
 
     chat add 0 room@conference.server.com
     /join #room
 
-####Auto join channel
+#### Auto join channel
 
 Find all channels
 

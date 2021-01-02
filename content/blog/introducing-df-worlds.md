@@ -1,13 +1,11 @@
----
-title: Introducing DF Worlds
-date: 2013-10-21
-category: Projects
-tags: python, django, dwarf fortress
-summary: Building a django powered dwarf fortress world repository
----
++++
+title = "Introducing DF Worlds"
+date = "2013-10-21"
+tags = ["python", "django", "dwarf fortress",]
+description = "Building a django powered dwarf fortress world repository"
++++
 
 ![df](/images/df.jpg)
-
 
 I love playing [Dwarf Fortress](http://www.bay12games.com/dwarves/). The level of detail, the stories (and my [adaptations](http://df.alexjj.com/) of them, the eye bleeding ascii, it's all amazing. However, this isn't a post about my endless love of this weird game but rather my small contribution back to the community.
 
@@ -25,7 +23,7 @@ The site is hosted on Heroku's free tier, which only offers basic features but m
 
 It was a fun project and I learnt a lot, although having not really learnt python properly I suffered and I think I need to go and read some python books. 
 
-[Visit the site](http://dfworlds.alexjj.com/).
+[Visit the site](http://dfworlds.alexjj.com/).  
 ![alttext][logo]
 
 So how is it doing? Well it's okay. A couple of people added their worlds; most of them are me adding my favourites from the forums. I think the audience is quite small and most of them are set in their ways of posting to the forum. The creator of the other "non-maintained" site contacted me and said he was maintaining it, but given the low interest he didn't see the point. I had a lot of ideas about how to improve my site, but again, the limited usage reduced my motivation to do anything extra. It's still in my mind as a future project though, if nothing more than for further learning about python and django, and perhaps the myriad of other technologies.

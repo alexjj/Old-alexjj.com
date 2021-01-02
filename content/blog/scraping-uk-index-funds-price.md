@@ -1,10 +1,9 @@
----
-title: Scraping UK index funds' prices
-date: 2016-02-10
-category: Projects
-tags: python, finance, web
-summary: Building a django powered dwarf fortress world repository
----
++++
+title = "Scraping UK index funds' prices"
+date = "2016-02-10"
+tags = ["python", "finance",]
+description = "Automating index fund prices for plain text accounting"
++++
 
 For four months or so I've been using [ledger](http://www.ledger-cli.org/) for tracking and managing my finances. It's great and I'll discuss that another time. One reason why I switched to ledger was to manage all my finances in one place, including tracking index funds. Ledger uses a pricesdb file to track the prices of any commodities, stocks, currencies, shoes, whatever!
 
@@ -14,7 +13,7 @@ Time to open the beautiful soup [manual](http://www.crummy.com/software/Beautifu
 
 Whilst I was testing my python script, I'd downloaded a copy of the page to my computer so I wasn't making endless requests to the real site. In a few lines of code I could easily grab the price. It especially helped that the actual price was contained in a div called "price". Perfect! I then built a function that created the ledger pricedb line, and one to write it to the file, something like this:
 
-```P 2016/02/10 09:00:00 FUND     100.00 GBP``` <br>
+```P 2016/02/10 09:00:00 FUND     100.00 GBP```  
 Meaning: on 10th Feb 2016 one unit of FUND had a value of 100.00 GBP.
 
 With a list of fund names, I could pass this to the price fetcher, create a list of strings and then write (append) that list to the file. Now to test it out on the live site...

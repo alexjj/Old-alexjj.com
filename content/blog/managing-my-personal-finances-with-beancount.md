@@ -1,11 +1,10 @@
----
-title: Managing my personal finances with beancount
-date: 2016-02-27
-category: Software
-tags: python, finance, web
-summary: Explaining my setup with beancount, fava, and pythonanywhere
-toc_run: true
----
++++
+title = "Managing my personal finances with beancount"
+date = "2016-02-27"
+tags = ["python", "finance",]
+description = "Explaining my setup with beancount, fava, and pythonanywhere"
++++
+
 *My version of getting started with beancount.*
 
 ## Introduction
@@ -26,7 +25,7 @@ Using a tool like beancount means I am free to set everything up the way I want 
 
 This is what I have.
 
-![Plain Text](/images/spacemacs.png)
+![Plain Text](/images/spacemacs.png)  
 ![Fava web ui](/images/fava-screenshot-02.png)
 
 ## The Background
@@ -94,12 +93,12 @@ Anyway...I now have one file that's broken into headers with org and I just open
 * Options
 * Accounts
 * Assets
- - Bank 1
- - Bank2
+  * Bank 1
+  * Bank2
 * Liabilities
-  - Credit Card 1
-  - Mortgage
-  - Loan 2
+  * Credit Card 1
+  * Mortgage
+  * Loan 2
 
 ![Plain Text](/images/spacemacs.png)
 
@@ -108,7 +107,7 @@ I'm still learning all the keyboard commands but I can quickly add new transacti
 These are the beancount minor-mode keys:
 
 Key     | Action                   | Description
-------- | ---- ------------------- | -----------
+--------| -------------------------|------------
 C-c '   | Insert Account           | Bring up selection to choose an account
 C-c C-g | Set transaction flag     | Change ! to *
 C-c r   | Refresh account list     | Read the file to update accounts for using `C-c '`
@@ -232,7 +231,7 @@ Some differences from ledger:
 2016-02-25 price GBP                  1.40 USD
 ```
 
-You have unlimited sub-categories, but a good design is:
+You have unlimited sub-categories, but a good design is:  
 `Account:Country:Institution:Account-type`
 
 e.g.
@@ -242,7 +241,7 @@ For expenses I got a lot of good inspiration from the [Mint list](https://www.mi
 
 ## Analysing data in your browser
 
-This is my favourite part! You can do everything from the command line but I really enjoy the [fava](https://github.com/aumayr/fava) tool to explore my data:
+This is my favourite part! You can do everything from the command line but I really enjoy the [fava](https://github.com/beancount/fava) tool to explore my data:
 
 ![Income Statement](/images/fava-screenshot-01.png)
 ![Tree Map](/images/fava-screenshot-02.png)
@@ -253,13 +252,13 @@ Instructions to install it from the [github repo](https://github.com/aumayr/fava
 Install it from pip:
 
 ```
-sudo pip3 install beancount-fava
+sudo pip3 install fava
 ```
 
 From command line run it with:
 
 ```
-fava /Volumes/Ledger/example.beancount
+fava example.beancount
 ```
 
 Go to: http://127.0.0.1:5000
@@ -270,7 +269,7 @@ Beancount includes the ```bean-query``` command which allows you to enter sql li
 
 Go to Custom Query and enter:
 
-```sql
+```
 SELECT
   month, account, sum(number) as Total, currency
 FROM
@@ -287,7 +286,7 @@ FLATTEN
 
 If you add them to your beancount file  using `query` entry and then they appear as options on the web UI
 
-```sql
+```
 2016-02-20 query "Monthly Totals - 2016" "
 SELECT
   month, account, sum(number) as Total, currency
@@ -329,11 +328,11 @@ Create an account at [pythonanywhere](https://www.pythonanywhere.com).
 Add a new web app:
 
  1. Manual configuration
- 2. Python 3.4
+ 2. Python 3.5
 
 Once it's made, edit WSGI under Code and replace everything with this. Adjust the location of your file and config.
 
-```python
+```
 from fava.application import app as application
 from fava.application import load_file
 

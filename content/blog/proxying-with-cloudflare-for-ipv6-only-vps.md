@@ -1,13 +1,13 @@
----
-title: Proxying with Cloudflare for ipv6 only VPS
-date: 2016-09-25
-category: Software
-tags: vps, nginx, config
-summary: How to setup CloudFlare to act as an ipv6 to ipv4 proxy with SSL
----
++++
+title = "Proxying with Cloudflare for ipv6 only VPS"
+date = "2016-09-25"
+tags = ["vps", "nginx", "config",]
+description = "How to setup CloudFlare to act as an ipv6 to ipv4 proxy with SSL"
++++
+
 This setup is used for ipv6 only VPS, like ones from [Lowendspirit](http://lowendspirit.com/). It allows ipv4 clients to connect and it provides SSL from client to server.
 
-##Cloudflare Settings
+## Cloudflare Settings
 
 1. Create AAAA record, and enable cloudflare...the orange cloud.
 2. Under Crypto, enable SSL and set certificate to:
@@ -16,22 +16,22 @@ This setup is used for ipv6 only VPS, like ones from [Lowendspirit](http://lowen
 3. Under Network, enable ipv6 compatibility
 4. Page rules, add one for http://alexjj.com/* to redirect to https
 
-##Server Settings
+## Server Settings
 
 For nginx.
 
 * Generate SSL certs:
 
-<code>openssl req -new -newkey rsa:2048 -x509 -sha512 -days 3650 -nodes -out /etc/nginx/ssl/name.pem -keyout /etc/nginx/ssl/name.key</code>
+`openssl req -new -newkey rsa:2048 -x509 -sha512 -days 3650 -nodes -out /etc/nginx/ssl/name.pem -keyout /etc/nginx/ssl/name.key`
 
 Common Name (e.g. server FQDN or YOUR name) [] *.yourdomain.com
 
-* Make this <code>openssl dhparam -out dhparam.pem 2048</code>
+* Make this `openssl dhparam -out dhparam.pem 2048`
 * Add Cloudflare IP filter (so the real IPs show in my logs...if I care). This is a nginx module:
     
     cat /etc/nginx/cloudflare
 
-```nginx
+```
 set_real_ip_from 103.21.244.0/22;
 set_real_ip_from 103.22.200.0/22;
 set_real_ip_from 103.31.4.0/22;
@@ -65,7 +65,7 @@ IPs from [here](https://www.cloudflare.com/ips/).
 
 Redirect port 80 (maybe redundant if you did page rules above, but good practice if ever move away from cloudflare)
 
-```nginx
+```
 ##
 #Forward http to https
 ##
@@ -80,7 +80,7 @@ server {
 
 The meat:
 
-```nginx
+```
 server {
         listen [::]:443 ssl default_server;
         include cloudflare;
@@ -117,4 +117,4 @@ server {
 
 For SSL config try this [gist](https://gist.github.com/plentz/6737338) or Google it as stuff changes.
 
-Enjoy delicious ipv6. <code>dead:beef:babe:cafe:</code>
+Enjoy delicious ipv6. `dead:beef:babe:cafe:`

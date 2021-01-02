@@ -1,11 +1,10 @@
----
-title: Building a Clueboard. Part 1.
-date: 2016-04-06
-category: Hardware
-tags: keyboard
-summary: Looking for the perfect keyboard. 
-toc_run: true
----
++++
+title = "Building a Clueboard. Part 1"
+date = "2016-04-06"
+tags = ["keyboard",]
+description = "Looking for the perfect keyboard." 
++++
+
 ## Introduction
 
 After not having much success with my ergodox, I decided I needed to find an alternative. I had, at least, learnt a few things on the way with the ergodox, namely:
@@ -43,7 +42,7 @@ Somehow, and I can't remember how, but probably browsing /r/mk, I found the [Clu
 
 Given the huge amount of flexbility the PCB offers (which by the way is incredible, as a PCB means no hand wiring, and the teensy controller is built in) and I got to work in designing my layout. I first just used GIMP to edit the layout image above to make some designs, but then thought it would be better to see what it looked like with the Carbon keys and have them all next to each other to compare. A great tool is the keyboard layout configurator, it allows you to design keyboard layouts. You can even export it to another [tool](http://builder.swillkb.com/) which creates the plate for you to send off somewhere to be made. Here's [mine](http://www.keyboard-layout-editor.com/#/gists/db01d8e7b0b8ce5b3139090f982df080), it's 6 possible layouts I evaluated.
 
-I quickly narrowed it down to these two:
+I quickly narrowed it down to these two:  
 ![A normal keyboard](/images/regulariso.PNG)
 
 > Mostly a regular (66%) keyboard
@@ -66,7 +65,7 @@ Given I want LED backlighting (which is different from LEDs under the keys, whic
 
 From this image I decided I wanted a black top and base and clear on the sides, I could always use some spray on froster if the clear was too transparent and the backlighting didn't work how I wanted it to. My design of the two space bars meant I'd need another 2u stabiliser, but Zach at Clueboard was kind enough just to throw one in for free.
 
-##### Switches
+#### Switches
 
 These are what make a mechanical keyboard...mechanical. For more science I'd recommend the /r/mk wiki, but generally there are three types of switches commonly sold today:
 
@@ -96,7 +95,7 @@ My Poker 2 has Cherry Browns, 45g tactile, and I like the actuation feedback but
 
 ZealPC still had a group buy running offering discounted prices, so I figured why not! I like browns and if these are better than it should all be good. Plus if I don't like them I'm sure I can easily sell them on the forums.
 
-##### Flashy lights
+#### Flashy lights
 
 The final piece is for the keyboard to have flashy lights. Who doesn't want that?! The Clueboard has support for 14 [SMD LEDs](https://www.sparkfun.com/products/13667) which can soldered on to the board and can be programmed and controlled from the firmware. I've not dug into it yet, but it seems like the quantum firmware offers several built in modes, like rainbow, pulsing and knight rider style. I'm excited to play with it. These LEDs can due every colour and their hue/brightness etc. can be adjusted from the keyboard. I'm currently not planning on installed LEDs under the key caps, I may change my mind and add them, perhaps to show what layer is selected or something, but I don't plan on having transparent or caps with slots to show the light, so it seems a bit of a waste.
 
