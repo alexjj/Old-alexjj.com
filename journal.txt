@@ -1,0 +1,190 @@
+---
+year: 2021
+month: November
+day: 25
+published: true
+---
+Testing out this journal.txt system. Could be nice, although not sure about how I handle images or [links](https://alexjj.com)
+
+It's also a little basic, but I do like how it works.
+
+> Who knows how this works?
+> Not me said me
+> oh
+
+Am I supposed to be using texti.github.io?
+
+Not sure I like how it does the Day #1 etc. Also just realised this keyboard doesn't have the # key. I have to press alt+3...hmm...
+
+---
+day: 26
+---
+
+Look I went back in time 🦄
+
+This is promising actually...
+
+Somethings to sort out:
+
+* A better theme and layout
+* Github actions to run journal.txt - should be easy?
+
+{% include image.html src="me.jpg" title="That's me" %}
+
+---
+day: 27
+---
+
+I like editing this text file to add stuff. It's very easy and I don't need to remember much.  Trying to test out github actions to automate building the posts from this file without me having to do it - means I can use other computers or web editors a lot easier without having to have ruby installed.
+
+Like usual I didn't read the manual, I just googled it and copied and pasted things and guessed what changed I have to make. When I push this when I'll see if it really worked.
+
+I've found a theme I quite like, although I could just build up this page from scratch. There's not much I want:
+
+* All posts' content on the main page
+* Paginated by maybe a week? 7 posts
+* A small menu somewhere with links to about, books, stuff, elsewhere, etc.
+* Maybe a feed, but I think that's easy with including a setting.
+* An archives page of every day by month in a long list
+
+The one thing I'm not sure about is ruby. I don't know it. I don't know jekyll. Jekyll doesn't seem that hard but now that I seem to be going along the lines of making it all myself, should I really be using it? It's nice with Github pages as I literally have to do nothing. This journal.txt gem is mostly what I want, although I'm tempted to make my own, so that I can change things slightly. I'm sure there must be similar scripts in python or something else that people have made. It would be quite a nice thing to make - although seems ridiculous to make my own blog generator...
+
+---
+day: 29
+---
+
+I'd sort of forgotten about this. Thought I'd try writing in it with [prose](https://prose.io). See how that experience is. The site needs some theming and CSS work badly but until I decide on this is the way to go then I won't put in the effort.
+
+I'd also wondered about running VS Code web version on my server and editing a static site via that. I suspect there's a lot of helper plugins or even some shell scripts I could write that I could access from the web. Would make things easy on pretty much all devices. Not sure how it would look on mobile though. I should make my work wiki and get using that. I don't have to wait for the new year before doing so. Then faff about with this or other sites later. Maybe I'll read the hugo docs and compare what's easier/harder and use that as my basis for blog.
+
+I still like dokuwiki's private vs. public settings within the app without having to have multiple areas. I'm actually thinking tiddlywiki will be better for work and dokuwiki for home? Maybe that's just an excuse to use everything.
+
+Also found out that prose has features for editing jekyll blogs...I should test this out...
+
+It's almost the 30th now...but I have managed to setup a reasonable site based on jekyll, the journal.txt generator. There's a few things I still want to change with the style. Not sure if I want pagination or just limited number of posts. Also don't like the link CSS for headlines. Need to figure out all my syntax stuff and how I add it into posts. Maybe setup prose as well. VS code is okay but not sure I like it that much for editing this file.
+
+Once that's done, I should do the static pages, and then consider if I want longer blog post section as well. Oh and a search bar.
+
+---
+day: 30
+---
+
+I'm amazed how I was super motivated to do this site last night. I do like it, and I much prefer having a static generated site than anything else. Now it feels like a bit of a slog to do the remaining parts. I'm now in that 20% which is going to take 80% of the time! I should make a list of the things I want to complete or figure out:
+
+<aside><p>Maybe a hidden dedicated page for my reference?</p></aside>
+
+* Figure out all the CSS elements and how I add them. e.g. markdown, or includes, or get jekyll to render them
+  * That is quite a big one... 😅 Main ones:
+  * Full width images
+  * Aside images
+  * Asides
+  * Description lists
+  * Quotes
+  * Code and syntax highlighting
+* Install syntax highlighting - either jeykll or [js plugins](https://prismjs.com)
+* Add comments (maybe use utterances on github?) and hide them with `<details>` section
+* Change header links on main page. Either remove underline or some fancy `::before` thing.
+* Maybe a gallery plugin like [fotorama.io](https://fotorama.io)
+* [Image zoom plugin](https://github.com/nishanths/zoom.js)
+* favicon etc. plus `<head>` things for it all.
+
+Those are probably the essentials or the first round to sort out. Other stuff I'm thinking of:
+
+<dl>
+    <dt>Adding content</dt>
+    <dd>Do I keep using journal.txt? It's simple to enter stuff and I don't have to remember anything. I've hacked the page titles so I ignore them. If I want to do anything further then might need to go. VS Code and Prose.io are the obvious other things to investigate, with plugins/configs etc.</dd>
+</dl>
+
+Random stuff:
+
+* General style tweaks
+* th/st in dates
+* tags for daily posts?
+
+Future:
+
+* Collection for blog posts
+* ?
+
+[Testing page]({{ site.baseurl }}/testing/)
+
+
+{% include aside.html content="Use an include for asides." %}
+
+
+---
+month: December
+day: 01
+---
+
+This site is coming along nicely. Only big things left are search and comments. Thought I'd try search first. Generally seems to be:
+
+1. Generate a list or json of all the posts
+2. Search over the top of this
+3. Display the results
+
+There's "simple search", someone made a small script to search over page titles, and then using lunr.js which allows more capabilities. Following along some tutorials but they don't quite do what I want. They're all similar but different and so far it doesn't quite work. It's one of those things where if I knew some javascript I could figure out what I needed to do. Not sure if it doesn't help that I want a search bar at the top and not on a dedicated page.
+
+Think I'm getting there...
+
+Busy with family stuff the rest of this week so I may not get much time on it until after the weekend.
+
+
+---
+day: 2
+---
+
+> Ha, my co-workers choke every time I share my screen and they see my tabs. Then they learn that they’re just seeing one window out of twelve.
+reply.
+
+This made me laugh, from hackernews.
+
+This site seems to be a reoccuring theme of motion vs. action. I've gone through the motions of making a new static site but the actual action of writing in it could be quick to disappear. Hopefully the past few months of writing in the wiki will stop that. As long as it doesn't get too hard to write then I should continue. It's funny that I can already hear in my head "how easy it was to go to the wiki, press `alt+j` and then start typing. This is pretty easy though.
+
+Quite decent snow (for here) today. We don't normally get much before Christmas.
+
+A friend has just got a Tesla. It's very fancy, but also very expensive. He's already installed [teslamate](https://docs.teslamate.org/docs/screenshots/#charging-details), but is complaining that the docker container has it's own version of Grafana and he wanted to integrate it with his smarthome grafana. 🙄 The available data from the car is nice, and would be nice if my car offered that, but there're still very expensive and EV charging infrastructure is quite poor.
+
+I don't like twitter, or most social media places. I only visit reddit (certain subreddits) and occasionally hacker news, although usually via [this summary](https://www.daemonology.net/hn-weekly-ask/). I say I don't like them quickly without thought. But what is it that I don't like? People selectively sharing the best things to show off? Am I do the same thing I dislike just on my own website? How is this any better? 🤷‍♂️ Too deep to think about that just now. Best get back to website construction...
+
+Speaking of which...top things left to do:
+
+* Move to main domain
+* Add comments
+* Add Blog™ section
+
+Really only move to domain is critical right now.
+
+Other stuff that needs tidying up but lower priority:
+
+* Update/add About page and maybe books and setup and now etc.
+* Setup prose.io
+* Styling the search page a bit better
+* Make the search results show the search content, not just the first ~160 characters of that page
+* Backfill drummer posts from opml
+* Pagination?
+* Continue using this journal.txt?
+
+Making this todo list (which will go nowhere other than down the page list) makes me think about todo list apps again. At work I use a notebook and written lists, this works well and I have no real need for a bigger todo management thing. At home I don't use anything but I do wonder if it means I never actually do anything. The problem I've found in the past is more motion vs. action, I spend ages faffing with systems and colours and tags but never actually do anything. For a while I was using ticktick and was good at both using it and doing stuff. I think it's simplicity was key. I also liked having it available everywhere via web app and photo app. Maybe there's self-hosted versions but maybe I should just use it again. I think the free teir was sufficient.
+
+My renewal notice for piwigo.org where I host my family galleries has come in. I like it (quite cheap, €39/yr) but also don't like it (style and formats are a bit limited and dated looking). I did wonder about keeping it for photo backup but the download mechanism is painful. I started wondering about paying for Flickr Pro instead. Not sure what I'd use it for but could be a backup solution and easy hosting for random photos. Still want to rebuild my static photo site again but the backlog of albums is going. Suppose I should just start with the latest and maybe work backwards as time permits.
+
+{% include aside.html content="Why does my brain do this." %}
+Now that I've built this site, I'm wondering if a single markdown file for for the whole site might be better (? or just different). Would be simple.
+
+Logged back into my ticktick account, deleted the old stuff (from 18 months ago) and started adding things. It is cathartic to offload tasks from my mind. Turns out there's a lot.
+
+[Looks clever and crazy.](https://www.markhansen.co.nz/build-a-website-off-a-google-sheets-database-using-hugo-netlify/)
+
+
+---
+day: 3
+---
+
+One problem I suffer from is when finding new software, I look up how other people use it and then copy their system. I then use it for a while and find it too complicated or doesn't work and then stop using it. It is useful seeing how others use stuff, particularly how parts are constructed, like tiddlywiki, to do something but I shouldn't try and adopt it. I'm resisting watching videos on ticktick or reading articles about it and just using it how I want or how I find I'm using it naturally. Part of the issue is I want to optmise or maximise things such that I get the most out of it. However, I should measure this by what the tool is for, not that I use 100% of it. But I'll still watch some anyway 😅
+
+Christmas party season. Had our work one today. People's sense of personal space starts to disappear as the night goes on!
+
+Github saver for tiddlywiki keeps being annoying. Not quite it's fault, but my phone has forgotten the github secret and somehow it's not in bitwarden. Possibly a sync issue when I moved VPS..? Seems a weird one as it was an old password, and not noticed anything else. 
+
+I have a lot of big, chore like things to do. I should just do a tiny bit each day. e.g. backfilling photo albums or drummer posts. After a month or something it'll be all done. Whereas now, I just put it off for a month and have nothing to show for it.

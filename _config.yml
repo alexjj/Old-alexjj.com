@@ -1,0 +1,59 @@
+title:       "Alex Johnstone"
+description: "Daily Notes"
+
+author: 'Alex Johnstone'
+github_username:  'alexjj'
+email: 'alexjj@gmail.com'
+twitter_username: 'thealexjj'
+
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
+  - scope:
+      path: ""
+      type: "posts"
+    value:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+include:
+- _pages
+
+permalink: /:year-:month-:day/
+
+plugins:
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-paginate
+
+paginate: 10
+paginate_path: "/page:num/"
+
+timezone: Europe/London
+
+exclude:
+- README.md
+- journal.txt
+- /old-posts
+
+prose:
+  rooturl: "_posts"
+  media: "assets/img"
+  ignore:
+    - index.html
+    - _config.yml
+    - /_layouts
+    - /_includes
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+
