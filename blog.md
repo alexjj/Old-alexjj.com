@@ -1,3 +1,6 @@
+---
+---
+
 # November 2021
 
 * November 25
@@ -324,45 +327,29 @@
 
             * [View Gist](https://gist.github.com/alexjj/8858e0be3136dc51a1ee9f8cd2bedd6a)
 
-###### import requests
+```python
+import requests
 
-###### headers = {
-
-####### ‘Connection’: ‘keep-alive’,
-
-####### ‘Accept’: ‘\*/\*’,
-
-####### ‘X-Requested-With’: ‘XMLHttpRequest’,
-
-####### ‘User-Agent’: ‘Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36’,
-
-####### ‘Content-Type’: ‘application/x-www-form-urlencoded; charset=UTF-8’,
-
-####### ‘Origin’: ‘http://drummer.scripting.com’,
-
-####### ‘Referer’: ‘http://drummer.scripting.com/’,
-
-####### ‘Accept-Language’: ‘en-GB-oxendict,en-US;q=0.9,en;q=0.8’,
-
-###### }
-
-###### params = (
-
-####### (’oauth_token’, ‘\<token>’),
-
-####### (’oauth_token_secret’, ‘\<secret>’),
-
-####### (’relpath’, ‘\<file>.opml’),
-
-####### (’type’, ‘text/xml’),
-
-####### (’flprivate’, ‘true’),
-
-###### )
-
-###### opml_contents = Path(’\<file>.opml’, encoding=’utf-8’).read_text()
-
-###### response = requests.post(’http://drummer.scripting.com/publishfile’, headers=headers, params=params, data=opml_contents.encode(’utf-8’), verify=False)
+headers = {
+ ‘Connection’: ‘keep-alive’,
+ ‘Accept’: ‘\*/\*’,
+ ‘X-Requested-With’: ‘XMLHttpRequest’,
+ ‘User-Agent’: ‘Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36’,
+ ‘Content-Type’: ‘application/x-www-form-urlencoded; charset=UTF-8’,
+ ‘Origin’: ‘http://drummer.scripting.com’,
+ ‘Referer’: ‘http://drummer.scripting.com/’,
+ ‘Accept-Language’: ‘en-GB-oxendict,en-US;q=0.9,en;q=0.8’,
+}
+params = (
+ (’oauth_token’, ‘\<token>’),
+ (’oauth_token_secret’, ‘\<secret>’),
+ (’relpath’, ‘\<file>.opml’),
+ (’type’, ‘text/xml’),
+ (’flprivate’, ‘true’),
+)
+opml_contents = Path(’\<file>.opml’, encoding=’utf-8’).read_text()
+response = requests.post(’http://drummer.scripting.com/publishfile’, headers=headers, params=params, data=opml_contents.encode(’utf-8’), verify=False)
+```
 
         * [Curl is also possible to use](https://gist.github.com/alexjj/8bc3c25036dba59c5360e94cbf96cbce), but I’ve not tested the `--data-raw @filename` vs `--data-binary @filename` options in curl ([man page](https://curl.se/docs/manpage.html#-d)), so it’s hard-coded contents of the opml file just now. If those don’t work then `cat` and bash can probably sort it out.
 
@@ -726,44 +713,4 @@
 
             * I realised that I had omitted the https in the reference to the stylesheet and code, and GH pages only permits https then it probably isn’t finding it…
 
-# Standalone pages
 
-* Now
-
-    * What am I doing now?
-
-        * Living in Aberdeen, Scotland with the hope of staying here for at least 20 years
-
-        * Kids are getting older and starting to do more activities and our calendar is heavily influenced by them
-
-        * Taking a lot of photos of family, including with film. Got a large format camera to try out.
-
-            * Planning on getting into developing myself
-
-        * Enjoying reading massive fantasy novels. Currently on the Stormlight Archives by Brandon Sanderson.
-
-        * Really picked up my blogging, at first with my [wiki site](https://fondoftea.com/) and now with [Drummer](http://drummer.scripting.com/).
-
-        * Considering some programming things, including learning javascript, but still not done much on that front recently.
-
-* Archives
-
-    * This is a test page to explore ways to show archives for the blog.
-
-    * October
-
-        * [20th](https://alexjj.com/2021/10/20.html)
-
-        * [19th](https://alexjj.com/2021/10/19.html)
-
-        * [18th](https://alexjj.com/2021/10/18.html)
-
-        * [17th](https://alexjj.com/2021/10/17.html)
-
-        * [16th](https://alexjj.com/2021/10/16.html)
-
-* Book List
-
-    * Read
-
-        * Les Misérables - Victor Hugo

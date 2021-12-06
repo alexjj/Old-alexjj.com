@@ -39,7 +39,7 @@ timezone: Europe/London
 
 exclude:
 - README.md
-- journal.txt
+- usage-notes.txt
 - /old-posts
 
 prose:

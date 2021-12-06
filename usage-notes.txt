@@ -1,0 +1,10 @@
+---
+---
+
+Add Image:
+
+{% include image.html src="me.jpg" title="That's me" %}
+
+add aside:
+
+{% include aside.html content="Use an include for asides." %}
