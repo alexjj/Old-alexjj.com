@@ -1,9 +1,13 @@
 ---
 ---
 
-Add Image:
+Add full size image:
 
 {% include image.html src="me.jpg" title="That's me" %}
+
+Add right adjusted image:
+
+![image](/assets/img/filename.jpg)
 
 add aside:
 
