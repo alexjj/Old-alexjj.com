@@ -41,6 +41,7 @@ exclude:
 - README.md
 - usage-notes.txt
 - /old-posts
+- CNAME
 
 prose:
   rooturl: "_posts"
