@@ -18,5 +18,5 @@ I have 31 pages left in my Leuchtturm1917 notebook. Last week I used 9 pages, th
 [Curly brackets { and } are also known as “curly braces” or simply “braces” (UK and US), “definite brackets”, “swirly brackets”, “birdie brackets”, “French brackets”, “Scottish brackets”, “squirrelly brackets”, “gullwings”, “seagulls”, “squiggly brackets”, “twirly brackets”, “Tuborg brackets” (DK), “accolades” (NL), “pointy brackets”, “fancy brackets”, “M Braces”, “moustache brackets”, “squiggly parentheses”, or “flower brackets” (India). 😅](https://en.wikipedia.org/wiki/Bracket#Curly_brackets)
 
 I also like octothorpes `###`
-
+![](/assets/img/recipe-pages.jpg)
 Saw [this nice looking](https://cooklang.org/) recipe markup language, and remembered how I want to put all of Granny’s index card recipes onto the computer. Not sure this is what I want though, as I’d rather have a website that everyone can access. Think I have a few projects starred on Github, even Tiddlywiki would work for it, but the bulk of the work is transcribing the index cards into text. Would be nice to have them as plain text files that software can use to generate a site vs. a database.
