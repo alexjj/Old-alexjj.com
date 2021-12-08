@@ -16,3 +16,20 @@ I want to make a book fo all our old DayOne journal entries. The book making is 
 It's nice reading it all though. Even the stuff I delete afterwards.
 
 Loqseq, git and Github could be a good solution for a work/private journal. Whilst there's nothing much to learn about Logseq, there are some good [practices](https://discuss.logseq.com/t/three-choices-new-users-need-to-make/3411)/methodologies people have developed to make the most of it. I've just got so used to Tiddlywiki I don't really want to learn something else. There's also no real mobile solution - editing or even viewing. There's convoluted systems but that's not what I'm looking for. So back to TW. Probably for the best.
+
+I wanted to minify and concat all my CSS into a single file, so that it was one request. I don't have too many on this site: the main CSS, code highlighting, and then some CSS for the [zoom javascript](https://github.com/nishanths/zoom.js) plugin. However, I occasionally tweak, add, subtract things from my main CSS and re-minifying it was a pain. Luckily I have a script from the static photo site I like to use and just copied that over. Now I can edit the main CSS, run the script and commit the updated version to the repo. I want to maintain the order of the CSS in case highlights or zoom has to overwrite something else, so I just number them all and it adds them in order.
+
+```bash
+#!/bin/bash
+
+# minify all .css-files
+ls -1 *.css|grep -Ev "min.css$" | while read cssfile; do
+	newfile="${cssfile%.*}.min.css"
+	echo "$cssfile --> $newfile"
+	curl -X POST -s --data-urlencode "input@$cssfile" https://www.toptal.com/developers/cssminifier/raw > $newfile
+done
+
+# merge all into one single file
+rm -f styles.min.css
+cat *.min.css > styles.min.css
+```
