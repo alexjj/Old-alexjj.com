@@ -11,7 +11,7 @@ permalink: /about/
 
 Computer science hobbyist, take photos, look after kids, drink tea.
 
-    Not always in that order.
+> Not always in that order.
 
 #### My other sites
 
@@ -21,3 +21,5 @@ Computer science hobbyist, take photos, look after kids, drink tea.
 
 
 Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+
+[Books I've read]({% link _pages/books.md %})
