@@ -12,3 +12,7 @@ date: 2021-12-08
 I made a list of all the non-fiction books I want to read...18 of them! Not sure I'll get to them all in 2022. Have to think about what and prioritise them. 🤔🧠
 
 I want to make a book fo all our old DayOne journal entries. The book making is easy, but I really want to review all the previous posts first. There's about 600-700 😰. I just want to get rid of things that don't fit. It's 99% family but occasionally I thought I'd try it with work. Don't know why I didn't start a new journal for that. If I'm paying for it to be printed I don't want rubbish in there, but at the same time this might take me forever and then I never print it.
+
+It's nice reading it all though. Even the stuff I delete afterwards.
+
+Loqseq, git and Github could be a good solution for a work/private journal. Whilst there's nothing much to learn about Logseq, there are some good [practices](https://discuss.logseq.com/t/three-choices-new-users-need-to-make/3411)/methodologies people have developed to make the most of it. I've just got so used to Tiddlywiki I don't really want to learn something else. There's also no real mobile solution - editing or even viewing. There's convoluted systems but that's not what I'm looking for. So back to TW. Probably for the best.
