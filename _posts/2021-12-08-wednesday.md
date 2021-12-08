@@ -10,3 +10,5 @@ date: 2021-12-08
 * [axe® - The Standard in Accessibility Testing](https://www.deque.com/axe/)
 
 I made a list of all the non-fiction books I want to read...18 of them! Not sure I'll get to them all in 2022. Have to think about what and prioritise them. 🤔🧠
+
+I want to make a book fo all our old DayOne journal entries. The book making is easy, but I really want to review all the previous posts first. There's about 600-700 😰. I just want to get rid of things that don't fit. It's 99% family but occasionally I thought I'd try it with work. Don't know why I didn't start a new journal for that. If I'm paying for it to be printed I don't want rubbish in there, but at the same time this might take me forever and then I never print it.
