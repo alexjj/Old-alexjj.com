@@ -2,15 +2,13 @@
 {% feed_meta %}
 <meta name="description" content="{{ site.description }}">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{% if page.title %}{{ page.date | date: "%A, %B %e, %Y" }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+<title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/favicon-16x16.png">
 <link rel="manifest" href="{{ site.baseurl }}/assets/site.webmanifest">
 <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/assets/favicon.ico" >
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
-<link href="{{ site.baseurl }}/assets/css/highlight.css" rel="stylesheet">
-<link href="{{ site.baseurl }}/assets/css/zoom.css" rel="stylesheet">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.min.css">
 
 <!-- Twitter cards -->
 <meta name="twitter:site" content="@{{ site.twitter_username }}">
