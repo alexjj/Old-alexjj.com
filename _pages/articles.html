@@ -10,7 +10,7 @@ permalink: /articles/
 <ul>
     {% for article in site.articles %}
       <li>
-        {{ article.date | date_to_string }} - <a href="{{ article.url }}">{{ article.title }}</a>
+        {{ article.date | date_to_long_string: "ordinal" }} - <a href="{{ article.url }}">{{ article.title }}</a>
       </li>
     {% endfor %}
   </ul>
