@@ -21,9 +21,18 @@ defaults:
       type: "pages"
     values:
       layout: "page"
+  - scope:
+      path: ""
+      type: "articles"
+    value:
+      layout: "article"
 
 include:
 - _pages
+
+collections:
+  articles:
+    output: true
 
 permalink: /:year-:month-:day/
 

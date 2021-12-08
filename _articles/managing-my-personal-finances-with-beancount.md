@@ -1,9 +1,11 @@
+---
 title: Managing my personal finances with beancount
 date: 2016-02-27
-category: Software
 tags: python, finance, web
 summary: Explaining my setup with beancount, fava, and pythonanywhere
 toc_run: true
+layout: article
+---
 
 *My version of getting started with beancount.*
 
@@ -25,8 +27,8 @@ Using a tool like beancount means I am free to set everything up the way I want 
 
 This is what I have.
 
-![Plain Text](/images/spacemacs.png)
-![Fava web ui](/images/fava-screenshot-02.png)
+![Plain Text](/assets/img/spacemacs.png)
+![Fava web ui](/assets/img/fava-screenshot-02.png)
 
 ## The Background
 
@@ -100,7 +102,7 @@ Anyway...I now have one file that's broken into headers with org and I just open
   - Mortgage
   - Loan 2
 
-![Plain Text](/images/spacemacs.png)
+![Plain Text](/assets/img/spacemacs.png)
 
 I'm still learning all the keyboard commands but I can quickly add new transactions and make changes. I don't use any importer tools (tools to take csv/ofx file from bank and convert into beancount input) as I tend to update once a week and there aren't many transactions to add each time. Plus I like to look at each one and think about what we bought and if it was really worth it. This [one](https://github.com/jbms/beancount-import) looks promising, and Martin is working on a feature as part of beancount to do this.
 
@@ -243,10 +245,10 @@ For expenses I got a lot of good inspiration from the [Mint list](https://www.mi
 
 This is my favourite part! You can do everything from the command line but I really enjoy the [fava](https://github.com/aumayr/fava) tool to explore my data:
 
-![Income Statement](/images/fava-screenshot-01.png)
-![Tree Map](/images/fava-screenshot-02.png)
-![Balance Sheet](/images/fava-screenshot-03.png)
-![Source](/images/fava-screenshot-05.png)
+![Income Statement](/assets/img/fava-screenshot-01.png)
+![Tree Map](/assets/img/fava-screenshot-02.png)
+![Balance Sheet](/assets/img/fava-screenshot-03.png)
+![Source](/assets/img/fava-screenshot-05.png)
 
 Instructions to install it from the [github repo](https://github.com/aumayr/fava#installation):
 Install it from pip:
@@ -282,7 +284,7 @@ ORDER BY month, currency, Account
 FLATTEN
 ```
 
-![bean-query from fava](/images/query.png)
+![bean-query from fava](/assets/img/query.png)
 
 If you add them to your beancount file  using `query` entry and then they appear as options on the web UI
 
@@ -323,7 +325,7 @@ Wouldn't it be great to access fava, this incredible tool, from anywhere? Given 
 
 Create an account at [pythonanywhere](https://www.pythonanywhere.com).
 
-![Make a new web app](/images/web.apps.PNG)
+![Make a new web app](/assets/img/web.apps.PNG)
 
 Add a new web app:
 
@@ -342,7 +344,7 @@ load_file()
 ```
 
 Save it and go back to the webapp page. Add a user and password at the bottom, I'd recommend **NOT** your pythonanywhere user/password and something long and unique, preferably generated and saved in a password manager like [KeePassX](https://www.keepassx.org/).
-![Add a password](/images/password.PNG)
+![Add a password](/assets/img/password.PNG)
 Now we need to install fava, to do this we're going to use a script that'll also be used for updating fava automatically.
 
 #### Fava Installation
@@ -399,7 +401,7 @@ chmod +x update.sh
 ./update.sh
 ```
 
-![Installing fava from pip](/images/console.PNG)
+![Installing fava from pip](/assets/img/console.PNG)
 
 Your site should now be working, but we don't have a beancount file there. To test it out you could just manually upload your file from the Files tab, along with any include files.
 
@@ -411,7 +413,7 @@ Go to https://USER.pythonanywhere.com, enter your username and password and ther
 
 To get fava to update automatically we simple go to the Schedule tab in the pythonanywhere dashboard and add a time and link to the update script, /home/USER/update.sh. If you find you run out of CPU usage, disable this and just do it manually every so often. I'd suggest setting the time to 23:55, so that way it runs and then your CPU limit gets reset at midnight.
 
-![cron](/images/schedule.PNG)
+![cron](/assets/img/schedule.PNG)
 
 
 Now to automatically get your beancount file. I'm going to assume you don't want to pay for pythonanywhere - as great as it is! I bring this up as it limits what methods you can push files to your account. SSH/rsync in or **out** of your account only work for paid accounts. If you do pay then you can setup a cron task on your home computer to push the file to your pythonanywhere account.

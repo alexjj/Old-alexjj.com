@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<article>
+    <header>
+      <h2>{{ page.title }}</h2>
+      <p>📅  {{ page.date | date_to_string }} | ⏱ {% include reading-time.html %}
+         👓 {{ page.content | number_of_words | append: " words."}}
+      </p>
+    </header>
+    {{ content }}
+</article>
