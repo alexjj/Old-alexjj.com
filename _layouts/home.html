@@ -16,6 +16,11 @@ layout: default
               {{ words | divided_by:180 }} mins
             {% endif %}
              👓 {{ post.content | number_of_words | append: " words."}}
+             {% if post.tags %} | 🏷️
+             {% for tag in post.tags %}
+               <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}">{{ tag }}</a>{% if forloop.last %}{% else %},{% endif %}
+             {% endfor %}
+           {% endif %}
         </p>
     </header>
     {{ post.content }}
