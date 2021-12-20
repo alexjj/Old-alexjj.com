@@ -2,6 +2,7 @@
 title: Wednesday, 27th October, 2021
 date: 2021-10-27 10:55:04
 published: true
+tags: ['Daily Notes']
 ---
 
 Somewhere along the line, I’ve lost the little arrows and the ability to expand or collapse items on my blog… 🤔

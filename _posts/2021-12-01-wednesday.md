@@ -1,6 +1,7 @@
 ---
 date: 2021-12-01
 title: Wednesday, 1st December, 2021
+tags: ['Daily Notes']
 ---
 
 

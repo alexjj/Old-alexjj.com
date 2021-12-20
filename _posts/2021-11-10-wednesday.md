@@ -2,6 +2,7 @@
 title: Wednesday, 10th November, 2021
 date: 2021-11-10 18:23:06
 published: true
+tags: ['Daily Notes']
 ---
 
 {% include image.html src="bittern.jpg" title="Little Bittern" %}

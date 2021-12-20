@@ -1,7 +1,7 @@
 ---
 title: Wednesday, 3rd November, 2021
 date: 2021-11-03 08:13:32
-published: false
+tags: ['Daily Notes']
 ---
 
 Doesn’t this just make you want to run tmux and vim. *what url?*
