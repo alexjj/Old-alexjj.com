@@ -36,6 +36,8 @@ collections:
 
 permalink: /:year-:month-:day/
 
+tag_page: '/tags/'
+
 plugins:
 - jekyll-feed
 - jekyll-sitemap
