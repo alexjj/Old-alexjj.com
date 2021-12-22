@@ -5,7 +5,7 @@ tags: ['Daily Notes']
 ---
 
 {% include image.html src="office-setup.jpg" title="View of my office" %}
-Finally setup the Mac Mini with its own monitors. Not sure I like the two monitors for the mini, the space is a bit tight and the black one eats into the typewriter area. I think a single 27" would be better. Also way too much stuff in here but not sure where else to keep it.
+Finally setup the Mac Mini with its own monitors. Not sure I like the two monitors for the mini, the space is a bit tight and the black one eats into the typewriter area. I think a single 27" would be better. Also way too much stuff in here but not sure where else to keep it. I did this as my daughter wants to use the main computer, and now it's the christmas holidays there's a lot more time when we both want to use a computer. Makes me think about the laptop arrangement like Jack as moved to...although I like big or multiple monitors so not sure that's a good option for me. I often wonder what my "perfect setup" would be. I can never decide.
 
 I found [this](https://nice-marmot.net/About.html) blog when browsing the Tinderbox forums. It's made in Tinderbox and is a general daily notes site. Dave, the owner, likes photography and doesn't like what social media has become. His site is 8 years old. I really like it. Makes me want to use Tinderbox. Although that doesn't really make much sense. Also my mac is not my main machine, unless I change my habits, and so it'll be hard to maintain. Least this is cross platform. Also not sure I want to spend $250 on some software. I'll watch all the [videos](https://www.youtube.com/watch?v=2_qs6a4RH-M&list=PL6MVDtSfcKxd2XLpenMAd9H4VknDyn6oz) and then decide.
 
