@@ -10,3 +10,5 @@ I did start looking at OmniOutliner, as it has an iOS companion app. I've got a 
 However, I can't see much in OmniOutliner that warrants its use over Dyanlist. 
 
 Saw a good deal on a 28" Samsung 4K monitor. The only trouble is my 2012 mac mini can only do 2650x1440. 
+
+Well I finally did it, I bought Tinderbox! Does look like my sort of application - perfect for faffing about in but never actually writing anything 😅 Paypal had given me $5 as well, so that was nice. Now to read the endless blogs, tutorials and documentation I've saved about it.
