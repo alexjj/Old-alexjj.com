@@ -18,4 +18,6 @@ VS Code has a settings, extension, keyboard shortcuts and probably other things 
 
 Oh it seems I also have Custom Email Domain service too with iCloud. I may actually use a personalised domain email address now...! I've had a domain for >10 years, and even one on the old Google business account thing when you could use it for free with 5 users. But I still find it hard to move away from my gmail. Everything goes there and it's easy. Plus my address is reasonable.
 
-I think [this](https://themes.gohugo.io/themes/paperesque/) is a good theme for my "noraml" blog. I'm not quite sure I like the front page but probably can tweak that. The rest of it is nice, and I like the footnotes being asides.
+I think [this](https://themes.gohugo.io/themes/paperesque/) is a good theme for my "normal" blog. I'm not quite sure I like the front page but probably can tweak that. The rest of it is nice, and I like the footnotes being asides.
+
+Adding all my photos to Apple Photos is great. Don't know why I didn't do it sooner, and by it I mean just any library management tool. 
