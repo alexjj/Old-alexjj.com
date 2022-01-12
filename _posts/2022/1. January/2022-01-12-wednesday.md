@@ -16,4 +16,6 @@ My iCloud subscription includes Hide My Email and private relay (VPN). I should 
 
 VS Code has a settings, extension, keyboard shortcuts and probably other things sync option. It saves to github or somewhere so all installations are the same. This seems ideal although every time I add a new VS Code install it complains about the settings file. I think it's just checking I want to overwrite the stock one it sets up on install but it's still unnerving and gives me doubt each time I do it.
 
-Oh it seems I also have Custom Email Domain service too with iCloud. I may actually use a personalised domain email address now...! I've had a domain for >10 years, and even one on the old Google business account thing when you could use it for free with 5 users. But I still find it hard to move away from my gmail. Everything goes there and it's easy. Plus my address is reasonable. 
+Oh it seems I also have Custom Email Domain service too with iCloud. I may actually use a personalised domain email address now...! I've had a domain for >10 years, and even one on the old Google business account thing when you could use it for free with 5 users. But I still find it hard to move away from my gmail. Everything goes there and it's easy. Plus my address is reasonable.
+
+I think [this](https://themes.gohugo.io/themes/paperesque/) is a good theme for my "noraml" blog. I'm not quite sure I like the front page but probably can tweak that. The rest of it is nice, and I like the footnotes being asides.
