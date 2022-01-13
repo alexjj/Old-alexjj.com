@@ -3,11 +3,10 @@
 		"prefix": "newday",
 		"body": [
 		  "---",
-		  "title: $CURRENT_DAY_NAME, $CURRENT_DATE${1|th,st,rd} $CURRENT_MONTH_NAME, $CURRENT_YEAR",
+		  "title: $CURRENT_DAY_NAME, $CURRENT_DATE$0 $CURRENT_MONTH_NAME, $CURRENT_YEAR",
 		  "date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
 		  "tags: []",
-		  "---",
-		  "$0"
+		  "---"
 		],
 		"description": "Inserts daily post front matter"
 	  }
