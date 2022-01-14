@@ -1,0 +1,24 @@
+{
+    "title": "mah blerg",
+    "description": "this and that",
+    "github": "alexjj",
+    "baseurl": "https://google.com",
+    "posts": [
+    {"date": "2022-01-14",
+     "entries": [
+       {"title": "optional title",
+        "tags": ["tag 1", "tag2"],
+        "content": "This is the actual content",
+        "image": "my-picture.jpg",
+        "image caption": "My lovely picture"
+        },
+        {"title": "",
+        "tags": ["tag 1", "tag2"],
+        "content": "Another post for today",
+        "image": "my-picture2.jpg",
+        "image caption": "My second picture"
+        }
+      ]
+    }
+  ]
+}
