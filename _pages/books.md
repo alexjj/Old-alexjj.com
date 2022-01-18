@@ -99,7 +99,7 @@ I stopped recording them in early 2019...
 ## 2015
 
 * _The Shepherd's Crown_ (2015), Terry Pratchett, 304 pp
-    * This marked the end of reading all of the discworld series, started _The Colour of Magic_ in April 2011.
+  * This marked the end of reading all of the discworld series, started _The Colour of Magic_ in April 2011.
 * _The Dragon Reborn_ (1991), Robert Jordan, 675 pp
 * _The Great Hunt_ (1990), Robert Jordan, 681 pp
 * _The Eye of the World_ (1990), Robert Jordan, 782 pp
