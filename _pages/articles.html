@@ -8,7 +8,7 @@ permalink: /articles/
 <h1>Articles</h1>
 <p>
 <ul>
-    {% for article in site.articles %}
+    {% for article in site.articles reversed %}
       <li>
         {{ article.date | date_to_long_string: "ordinal" }} - <a href="{{ article.url }}">{{ article.title }}</a>
       </li>
