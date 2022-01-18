@@ -7,6 +7,10 @@ permalink: /books/
 
 List of books I've read:
 
+## 2022
+
+* _Oathbringer_ (2017), Brandon Sanderson, 1233 pp
+
 ## 2021
 
 * _Words of Radiance_ (2014), Brandon Sanderson, 1080 pp
