@@ -10,4 +10,4 @@ The list that gets updated the most is my list of things I want to buy. It is go
 
 Using it also reminds me of my effort to find a self-hosted alternative. I still prefer web apps for their use across all platforms and locations. I'm still yet to find anything that's as nice or good. So Dynalist will do for now. I think it's pretty reliable. I'm sure there's still plenty of paid subscribers. The developers have mostly left dynalist and are working on Obsidian. However, as obsidian is proving very popular and there's paid subscriptions for it, I hope that this means dynalist lives on given the developers are still making money and can cover the costs of both services.
 
-If anyone knows of a nice outliner like Dynalist that you can self-host I'm all ears...[This is my list](https://fondoftea.com/#Outliners). Although I've not broken it out into web hosted etc.
+If anyone knows of a nice outliner like Dynalist that you can self-host I'm all ears...[This is my list](https://fondoftea.com/#Outliners). Although I've not broken it out into web hosted etc. Maybe I should install [Vimflowy](https://github.com/WuTheFWasThat/vimflowy) this time.
