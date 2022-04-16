@@ -1,12 +1,14 @@
 ---
+layout: none
 ---
+
 [
 {% for post in site.posts | sort: title %}
   {
     "title": "{{ post.title }}",
     "created": "{{ post.date | date: "%Y%m%d%H%M%S%L"  }}",
     "creator": "alexjj",
-    "text": "{{post.content | replace:'"','\"'}}",
+    "text": "{{post.content | markdownify | strip_html | jsonify}}",
     "type": "text/vnd.tiddlywiki",
     "tags": "Journal"
   } {% unless forloop.last %},{% endunless%}
