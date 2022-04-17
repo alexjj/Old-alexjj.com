@@ -3,12 +3,14 @@
 		"prefix": "newday",
 		"body": [
 		  "---",
-		  "title: $CURRENT_DAY_NAME, $CURRENT_DATE$0 $CURRENT_MONTH_NAME, $CURRENT_YEAR",
+		  "title: $1",
 		  "date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
-		  "tags: []",
+		  "tags: $2",
+		  "summary: $3"
 		  "---"
+		  $0
 		],
-		"description": "Inserts daily post front matter"
+		"description": "Inserts post front matter"
 	  }
 	// Place your alexjj.com workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
 	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope

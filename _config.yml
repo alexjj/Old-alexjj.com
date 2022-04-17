@@ -1,5 +1,5 @@
 title:       "Alex Johnstone"
-description: "Daily Notes"
+description: "Fond of Tea"
 
 author: 'Alex Johnstone'
 github_username:  'alexjj'
@@ -21,11 +21,6 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-  - scope:
-      path: ""
-      type: "articles"
-    value:
-      layout: "article"
 
 include:
 - _pages
@@ -53,19 +48,3 @@ exclude:
 - usage-notes.txt
 - /old-posts
 - CNAME
-
-prose:
-  rooturl: "_posts"
-  media: "assets/img"
-  ignore:
-    - index.html
-    - _config.yml
-    - /_layouts
-    - /_includes
-  metadata:
-    _posts:
-      - name: "title"
-        field:
-          element: "text"
-          label: "title"
-
