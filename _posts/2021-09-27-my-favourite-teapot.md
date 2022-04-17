@@ -1,8 +1,9 @@
 ---
 title: My favourite teapot
 date: 2021-09-27
+summary: The end game of teapots.
 tags: tea, home
-layout: article
+layout: post
 ---
 
 Like all favourites the real favourite always depends. It depends on the intent, at least for me. I suppose you could do a "of all time" or "best overall" style favourite. I think a common distinction is form over function. There are a lot of things that look great but are practically useless, even if - like a teapot - they should be used, they still may remain annoying.

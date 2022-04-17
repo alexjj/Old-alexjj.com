@@ -5,7 +5,8 @@ layout: default
 <article>
     <header>
       <h2>{{ page.title }}</h2>
-      <p>⏱ {% include reading-time.html %}
+      <p>📅  {{ page.date | date_to_string: "ordinal" }}
+         ⏱ {% include reading-time.html %}
          👓 {{ page.content | number_of_words | append: " words."}}
          {% if page.tags %} 🏷️
         {% for tag in page.tags %}

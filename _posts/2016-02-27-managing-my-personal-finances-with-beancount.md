@@ -4,7 +4,7 @@ date: 2016-02-27
 tags: python, finance, web
 summary: Explaining my setup with beancount, fava, and pythonanywhere
 toc_run: true
-layout: article
+layout: post
 ---
 
 *My version of getting started with beancount.*
