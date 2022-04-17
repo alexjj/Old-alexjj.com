@@ -8,7 +8,7 @@ layout: default
         <h2><a href="{{ post.url | prepend: site.baseurl }}">
             {{ post.title }}
         </h2></a>
-        <p>📅  {{ page.date | date_to_string: "ordinal" }} 
+        <p>📅  {{ post.date | date_to_string: "ordinal" }}
           ⏱
             {% assign words = post.content | number_of_words %}
             {% if words < 360 %}
