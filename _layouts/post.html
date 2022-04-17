@@ -7,7 +7,7 @@ layout: default
       <h2>{{ page.title }}</h2>
       <p>📅  {{ page.date | date_to_string: "ordinal" }}
          ⏱  {% include reading-time.html %}
-         👓  {{ page.content | number_of_words | append: " words."}}
+         👓  {{ page.content | number_of_words | append: " words"}}
          {% if page.tags %} 🏷️
         {% for tag in page.tags %}
           <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}">{{ tag }}</a>{% if forloop.last %}{% else %},{% endif %}

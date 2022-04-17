@@ -1,5 +1,5 @@
 ---
-title: Happy Easter and a spring clean
+title: 🐥 Happy Easter and a spring clean 🧹
 date: 2022-04-17
 tags: meta
 summary: Redo of blogging arrangements. Can be skipped 😅
