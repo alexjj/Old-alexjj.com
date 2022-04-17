@@ -10,7 +10,7 @@ layout: none
     "creator": "alexjj",
     "text": {{post.content | markdownify | strip_html | jsonify}},
     "type": "text/vnd.tiddlywiki",
-    "tags": "Journal",
+    "tags": "Journal"
   } {% unless forloop.last %},{% endunless%}
 {% endfor %}
 ]
