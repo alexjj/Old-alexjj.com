@@ -7,7 +7,7 @@ toc_run: true
 layout: post
 ---
 
-*My version of getting started with beancount.*
+*My version of getting started with beancount - this is an old post, so somethings may have changed.*
 
 ## Introduction
 
