@@ -2,7 +2,7 @@
 title: My favourite teapot
 date: 2021-09-27
 summary: The end game of teapots.
-tags: tea, home
+tags: tea home
 layout: post
 ---
 

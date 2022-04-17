@@ -1,7 +1,7 @@
 ---
 title: Managing my personal finances with beancount
 date: 2016-02-27
-tags: python, finance, web
+tags: python finance web
 summary: Explaining my setup with beancount, fava, and pythonanywhere
 toc_run: true
 layout: post
